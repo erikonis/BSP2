@@ -1,0 +1,224 @@
+Starting...
+Entered main function. Starting training process.
+start time:  1746985136.308115
+Made output directory:  rmlp_raw/
+Using device: cuda
+model loaded in: 0.7273175716400146
+data loaded
+Epoch 1/100 - Loss: 0.7867 - Accuracy: 56.60%
+Validation - Loss: 0.7128 - Accuracy: 44.12%
+Epoch 2/100 - Loss: 0.6065 - Accuracy: 67.39%
+Validation - Loss: 0.5822 - Accuracy: 68.76%
+Epoch 3/100 - Loss: 0.4698 - Accuracy: 77.07%
+Validation - Loss: 0.4523 - Accuracy: 76.95%
+Epoch 4/100 - Loss: 0.4297 - Accuracy: 79.63%
+Validation - Loss: 0.4174 - Accuracy: 78.62%
+Epoch 5/100 - Loss: 0.3786 - Accuracy: 82.45%
+Validation - Loss: 0.3775 - Accuracy: 82.67%
+Epoch 6/100 - Loss: 0.3633 - Accuracy: 83.55%
+Validation - Loss: 0.3377 - Accuracy: 84.02%
+Epoch 7/100 - Loss: 0.3503 - Accuracy: 84.38%
+Validation - Loss: 0.3319 - Accuracy: 83.78%
+Epoch 8/100 - Loss: 0.3243 - Accuracy: 85.04%
+Validation - Loss: 0.3516 - Accuracy: 82.83%
+Epoch 9/100 - Loss: 0.3063 - Accuracy: 86.03%
+Validation - Loss: 0.3552 - Accuracy: 84.58%
+Epoch 10/100 - Loss: 0.3075 - Accuracy: 85.87%
+Validation - Loss: 0.3151 - Accuracy: 85.21%
+Epoch 11/100 - Loss: 0.3009 - Accuracy: 86.03%
+Validation - Loss: 0.3447 - Accuracy: 84.34%
+Epoch 12/100 - Loss: 0.2790 - Accuracy: 87.24%
+Validation - Loss: 0.3564 - Accuracy: 82.27%
+Epoch 13/100 - Loss: 0.2720 - Accuracy: 87.60%
+Validation - Loss: 0.3144 - Accuracy: 85.61%
+Epoch 14/100 - Loss: 0.2675 - Accuracy: 88.24%
+Validation - Loss: 0.2929 - Accuracy: 86.96%
+Epoch 15/100 - Loss: 0.2597 - Accuracy: 88.75%
+Validation - Loss: 0.2998 - Accuracy: 86.88%
+Epoch 16/100 - Loss: 0.2613 - Accuracy: 88.95%
+Validation - Loss: 0.3058 - Accuracy: 86.17%
+Epoch 17/100 - Loss: 0.2539 - Accuracy: 88.73%
+Validation - Loss: 0.2933 - Accuracy: 86.49%
+Epoch 18/100 - Loss: 0.2483 - Accuracy: 88.99%
+Validation - Loss: 0.2962 - Accuracy: 85.14%
+Epoch 19/100 - Loss: 0.2431 - Accuracy: 89.23%
+Validation - Loss: 0.2681 - Accuracy: 87.20%
+Epoch 20/100 - Loss: 0.2330 - Accuracy: 89.55%
+Validation - Loss: 0.3265 - Accuracy: 86.09%
+Epoch 21/100 - Loss: 0.2140 - Accuracy: 90.80%
+Validation - Loss: 0.3078 - Accuracy: 87.92%
+Epoch 22/100 - Loss: 0.2173 - Accuracy: 91.30%
+Validation - Loss: 0.2944 - Accuracy: 87.52%
+Epoch 23/100 - Loss: 0.2056 - Accuracy: 91.14%
+Validation - Loss: 0.2754 - Accuracy: 88.24%
+Epoch 24/100 - Loss: 0.2016 - Accuracy: 91.69%
+Validation - Loss: 0.3071 - Accuracy: 86.41%
+Epoch 25/100 - Loss: 0.2025 - Accuracy: 91.16%
+Validation - Loss: 0.2776 - Accuracy: 87.84%
+Epoch 26/100 - Loss: 0.1953 - Accuracy: 91.16%
+Validation - Loss: 0.3237 - Accuracy: 85.45%
+Epoch 27/100 - Loss: 0.1882 - Accuracy: 91.59%
+Validation - Loss: 0.2979 - Accuracy: 87.68%
+Epoch 28/100 - Loss: 0.1812 - Accuracy: 92.25%
+Validation - Loss: 0.3031 - Accuracy: 87.68%
+Epoch 29/100 - Loss: 0.1861 - Accuracy: 92.11%
+Validation - Loss: 0.3063 - Accuracy: 86.57%
+Epoch 30/100 - Loss: 0.1904 - Accuracy: 92.25%
+Validation - Loss: 0.3358 - Accuracy: 86.80%
+Epoch 31/100 - Loss: 0.1652 - Accuracy: 93.14%
+Validation - Loss: 0.3252 - Accuracy: 87.28%
+Epoch 32/100 - Loss: 0.1654 - Accuracy: 92.67%
+Validation - Loss: 0.3120 - Accuracy: 88.63%
+Epoch 33/100 - Loss: 0.1627 - Accuracy: 93.24%
+Validation - Loss: 0.2894 - Accuracy: 88.95%
+Epoch 34/100 - Loss: 0.1517 - Accuracy: 93.86%
+Validation - Loss: 0.2956 - Accuracy: 86.57%
+Epoch 35/100 - Loss: 0.1676 - Accuracy: 93.22%
+Validation - Loss: 0.2725 - Accuracy: 88.87%
+Epoch 36/100 - Loss: 0.1531 - Accuracy: 93.78%
+Validation - Loss: 0.2875 - Accuracy: 87.52%
+Epoch 37/100 - Loss: 0.1502 - Accuracy: 93.72%
+Validation - Loss: 0.3098 - Accuracy: 88.24%
+Epoch 38/100 - Loss: 0.1771 - Accuracy: 93.02%
+Validation - Loss: 0.4335 - Accuracy: 80.76%
+Epoch 39/100 - Loss: 0.2338 - Accuracy: 90.20%
+Validation - Loss: 2.0354 - Accuracy: 86.33%
+Epoch 40/100 - Loss: 0.2008 - Accuracy: 91.26%
+Validation - Loss: 0.3219 - Accuracy: 86.49%
+Epoch 41/100 - Loss: 0.1793 - Accuracy: 92.53%
+Validation - Loss: 0.3268 - Accuracy: 86.72%
+Epoch 42/100 - Loss: 0.1612 - Accuracy: 93.14%
+Validation - Loss: 0.3040 - Accuracy: 88.00%
+Epoch 43/100 - Loss: 0.1305 - Accuracy: 94.91%
+Validation - Loss: 0.2899 - Accuracy: 89.03%
+Epoch 44/100 - Loss: 0.1226 - Accuracy: 94.89%
+Validation - Loss: 0.3174 - Accuracy: 89.11%
+Epoch 45/100 - Loss: 0.1339 - Accuracy: 94.67%
+Validation - Loss: 0.3250 - Accuracy: 86.96%
+Epoch 46/100 - Loss: 0.1170 - Accuracy: 95.05%
+Validation - Loss: 0.2755 - Accuracy: 89.59%
+Epoch 47/100 - Loss: 0.1256 - Accuracy: 94.65%
+Validation - Loss: 0.2970 - Accuracy: 88.95%
+Epoch 48/100 - Loss: 0.1152 - Accuracy: 95.19%
+Validation - Loss: 0.3320 - Accuracy: 89.43%
+Epoch 49/100 - Loss: 0.1118 - Accuracy: 95.45%
+Validation - Loss: 0.3515 - Accuracy: 87.60%
+Epoch 50/100 - Loss: 0.1076 - Accuracy: 95.77%
+Validation - Loss: 0.3446 - Accuracy: 87.76%
+Epoch 51/100 - Loss: 0.1046 - Accuracy: 96.07%
+Validation - Loss: 0.3548 - Accuracy: 87.28%
+Epoch 52/100 - Loss: 0.0895 - Accuracy: 96.44%
+Validation - Loss: 0.4015 - Accuracy: 87.36%
+Epoch 53/100 - Loss: 0.1106 - Accuracy: 95.79%
+Validation - Loss: 0.4048 - Accuracy: 88.08%
+Epoch 54/100 - Loss: 0.1089 - Accuracy: 95.75%
+Validation - Loss: 0.3513 - Accuracy: 86.17%
+Epoch 55/100 - Loss: 0.0958 - Accuracy: 96.30%
+Validation - Loss: 0.2882 - Accuracy: 89.35%
+Epoch 56/100 - Loss: 0.0949 - Accuracy: 96.10%
+Validation - Loss: 0.3453 - Accuracy: 87.84%
+Epoch 57/100 - Loss: 0.1036 - Accuracy: 95.97%
+Validation - Loss: 0.3775 - Accuracy: 87.44%
+Epoch 58/100 - Loss: 0.0899 - Accuracy: 96.50%
+Validation - Loss: 0.3817 - Accuracy: 85.61%
+Epoch 59/100 - Loss: 0.0963 - Accuracy: 96.38%
+Validation - Loss: 0.3446 - Accuracy: 89.03%
+Epoch 60/100 - Loss: 0.0931 - Accuracy: 96.18%
+Validation - Loss: 0.3247 - Accuracy: 88.79%
+Epoch 61/100 - Loss: 0.0853 - Accuracy: 96.80%
+Validation - Loss: 0.4128 - Accuracy: 87.52%
+Epoch 62/100 - Loss: 0.0924 - Accuracy: 96.36%
+Validation - Loss: 0.2964 - Accuracy: 89.27%
+Epoch 63/100 - Loss: 0.0852 - Accuracy: 96.58%
+Validation - Loss: 0.3736 - Accuracy: 89.51%
+Epoch 64/100 - Loss: 0.0876 - Accuracy: 96.58%
+Validation - Loss: 0.3350 - Accuracy: 89.19%
+Epoch 65/100 - Loss: 0.0756 - Accuracy: 97.20%
+Validation - Loss: 0.4607 - Accuracy: 89.11%
+Epoch 66/100 - Loss: 0.0969 - Accuracy: 96.40%
+Validation - Loss: 0.3173 - Accuracy: 88.79%
+Epoch 67/100 - Loss: 0.0802 - Accuracy: 97.10%
+Validation - Loss: 0.3379 - Accuracy: 88.16%
+Epoch 68/100 - Loss: 0.0724 - Accuracy: 97.30%
+Validation - Loss: 0.3415 - Accuracy: 89.11%
+Epoch 69/100 - Loss: 0.0678 - Accuracy: 97.26%
+Validation - Loss: 0.3674 - Accuracy: 85.93%
+Epoch 70/100 - Loss: 0.0843 - Accuracy: 96.66%
+Validation - Loss: 0.3168 - Accuracy: 89.98%
+Epoch 71/100 - Loss: 0.0626 - Accuracy: 97.91%
+Validation - Loss: 0.3460 - Accuracy: 89.67%
+Epoch 72/100 - Loss: 0.0792 - Accuracy: 96.88%
+Validation - Loss: 0.3667 - Accuracy: 90.14%
+Epoch 73/100 - Loss: 0.0773 - Accuracy: 97.00%
+Validation - Loss: 0.3508 - Accuracy: 88.16%
+Epoch 74/100 - Loss: 0.0736 - Accuracy: 97.28%
+Validation - Loss: 0.3844 - Accuracy: 88.00%
+Epoch 75/100 - Loss: 0.0819 - Accuracy: 96.82%
+Validation - Loss: 0.3424 - Accuracy: 87.84%
+Epoch 76/100 - Loss: 0.0726 - Accuracy: 97.04%
+Validation - Loss: 0.3590 - Accuracy: 87.60%
+Epoch 77/100 - Loss: 0.0720 - Accuracy: 97.06%
+Validation - Loss: 0.3412 - Accuracy: 87.52%
+Epoch 78/100 - Loss: 0.0706 - Accuracy: 97.34%
+Validation - Loss: 0.3362 - Accuracy: 87.20%
+Epoch 79/100 - Loss: 0.0577 - Accuracy: 97.79%
+Validation - Loss: 0.4065 - Accuracy: 87.52%
+Epoch 80/100 - Loss: 0.0627 - Accuracy: 97.67%
+Validation - Loss: 0.4277 - Accuracy: 88.87%
+Epoch 81/100 - Loss: 0.0727 - Accuracy: 97.08%
+Validation - Loss: 0.4226 - Accuracy: 88.00%
+Epoch 82/100 - Loss: 0.0760 - Accuracy: 97.16%
+Validation - Loss: 0.3337 - Accuracy: 88.95%
+Epoch 83/100 - Loss: 0.0650 - Accuracy: 97.66%
+Validation - Loss: 0.3793 - Accuracy: 88.55%
+Epoch 84/100 - Loss: 0.0663 - Accuracy: 97.38%
+Validation - Loss: 0.3357 - Accuracy: 88.31%
+Epoch 85/100 - Loss: 0.0533 - Accuracy: 97.81%
+Validation - Loss: 0.3771 - Accuracy: 88.00%
+Epoch 86/100 - Loss: 0.0564 - Accuracy: 97.87%
+Validation - Loss: 0.4679 - Accuracy: 88.95%
+Epoch 87/100 - Loss: 0.0580 - Accuracy: 97.62%
+Validation - Loss: 0.3910 - Accuracy: 88.39%
+Epoch 88/100 - Loss: 0.0633 - Accuracy: 97.42%
+Validation - Loss: 0.4164 - Accuracy: 87.52%
+Epoch 89/100 - Loss: 0.0669 - Accuracy: 97.48%
+Validation - Loss: 0.3673 - Accuracy: 90.46%
+Epoch 90/100 - Loss: 0.0603 - Accuracy: 97.83%
+Validation - Loss: 0.4406 - Accuracy: 89.51%
+Epoch 91/100 - Loss: 0.0576 - Accuracy: 97.73%
+Validation - Loss: 0.3480 - Accuracy: 90.38%
+Epoch 92/100 - Loss: 0.0662 - Accuracy: 97.48%
+Validation - Loss: 0.4100 - Accuracy: 88.39%
+Epoch 93/100 - Loss: 0.0716 - Accuracy: 97.44%
+Validation - Loss: 0.3621 - Accuracy: 89.03%
+Epoch 94/100 - Loss: 0.0539 - Accuracy: 97.97%
+Validation - Loss: 0.4194 - Accuracy: 86.17%
+Epoch 95/100 - Loss: 0.0543 - Accuracy: 97.97%
+Validation - Loss: 0.3844 - Accuracy: 88.55%
+Epoch 96/100 - Loss: 0.0692 - Accuracy: 97.58%
+Validation - Loss: 0.3867 - Accuracy: 88.24%
+Epoch 97/100 - Loss: 0.0504 - Accuracy: 98.17%
+Validation - Loss: 0.3603 - Accuracy: 89.90%
+Epoch 98/100 - Loss: 0.0476 - Accuracy: 98.17%
+Validation - Loss: 0.4361 - Accuracy: 87.84%
+Epoch 99/100 - Loss: 0.0660 - Accuracy: 97.32%
+Validation - Loss: 0.3497 - Accuracy: 89.27%
+Epoch 100/100 - Loss: 0.0471 - Accuracy: 98.25%
+Validation - Loss: 0.4593 - Accuracy: 88.87%
+trained model
+metrics plotted
+
+Metrics saved to: rmlp_raw/metrics_rmlp_raw.txt
+Test Accuracy: 93.00%
+F1 Score: 0.9286
+Recall: 0.9100
+Precision: 0.9479
+ROC AUC: 0.9735
+
+Confidence statistics saved to: rmlp_raw/confidence_statistics_rmlp_raw.txt
+model evaluated
+Model saved successfully!
+model saved
+it took:  2114.864743947983
+training time saved
+Finished training process.

@@ -1,0 +1,8 @@
+Model: rn101
+Dataset: preprocessed
+------------------------------
+F1 Score: 0.9655
+Recall: 0.9800
+Precision: 0.9515
+Accuracy: 96.50%
+------------------------------

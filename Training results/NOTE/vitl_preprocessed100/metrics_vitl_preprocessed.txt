@@ -1,0 +1,8 @@
+Model: vitl
+Dataset: preprocessed
+------------------------------
+F1 Score: 0.8061
+Recall: 0.7900
+Precision: 0.8229
+Accuracy: 81.00%
+------------------------------

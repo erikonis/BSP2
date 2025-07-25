@@ -1,0 +1,8 @@
+Model: dn169
+Dataset: preprocessed
+------------------------------
+F1 Score: 0.9412
+Recall: 0.9600
+Precision: 0.9231
+Accuracy: 94.00%
+------------------------------

@@ -1,0 +1,8 @@
+Model: rmlp
+Dataset: preprocessed
+------------------------------
+F1 Score: 0.7684
+Recall: 0.7300
+Precision: 0.8111
+Accuracy: 78.00%
+------------------------------

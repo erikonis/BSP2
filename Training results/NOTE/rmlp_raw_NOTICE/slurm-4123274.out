@@ -1,0 +1,104 @@
+Starting...
+Entered main function. Starting training process.
+start time:  1746980157.7800596
+Made output directory:  rmlp_raw/
+Using device: cuda
+model loaded in: 3.707740068435669
+data loaded
+Epoch 1/40 - Loss: 0.7532 - Accuracy: 57.65%
+Validation - Loss: 0.6923 - Accuracy: 52.94%
+Epoch 2/40 - Loss: 0.5937 - Accuracy: 68.64%
+Validation - Loss: 0.5520 - Accuracy: 72.34%
+Epoch 3/40 - Loss: 0.4614 - Accuracy: 76.67%
+Validation - Loss: 0.4435 - Accuracy: 77.90%
+Epoch 4/40 - Loss: 0.4142 - Accuracy: 80.60%
+Validation - Loss: 0.4182 - Accuracy: 79.89%
+Epoch 5/40 - Loss: 0.3762 - Accuracy: 81.24%
+Validation - Loss: 0.3740 - Accuracy: 80.92%
+Epoch 6/40 - Loss: 0.3686 - Accuracy: 82.55%
+Validation - Loss: 0.3823 - Accuracy: 81.64%
+Epoch 7/40 - Loss: 0.3477 - Accuracy: 83.84%
+Validation - Loss: 0.3631 - Accuracy: 82.51%
+Epoch 8/40 - Loss: 0.3356 - Accuracy: 84.50%
+Validation - Loss: 0.3575 - Accuracy: 83.07%
+Epoch 9/40 - Loss: 0.3263 - Accuracy: 84.18%
+Validation - Loss: 0.3615 - Accuracy: 83.15%
+Epoch 10/40 - Loss: 0.3213 - Accuracy: 85.14%
+Validation - Loss: 0.3458 - Accuracy: 83.78%
+Epoch 11/40 - Loss: 0.3172 - Accuracy: 85.79%
+Validation - Loss: 0.4441 - Accuracy: 77.74%
+Epoch 12/40 - Loss: 0.3034 - Accuracy: 85.77%
+Validation - Loss: 0.3726 - Accuracy: 81.64%
+Epoch 13/40 - Loss: 0.3117 - Accuracy: 85.69%
+Validation - Loss: 0.3499 - Accuracy: 83.94%
+Epoch 14/40 - Loss: 0.2874 - Accuracy: 87.04%
+Validation - Loss: 0.3246 - Accuracy: 85.29%
+Epoch 15/40 - Loss: 0.2889 - Accuracy: 86.96%
+Validation - Loss: 0.3556 - Accuracy: 83.47%
+Epoch 16/40 - Loss: 0.2779 - Accuracy: 87.08%
+Validation - Loss: 0.3560 - Accuracy: 84.74%
+Epoch 17/40 - Loss: 0.2915 - Accuracy: 86.76%
+Validation - Loss: 0.3577 - Accuracy: 83.07%
+Epoch 18/40 - Loss: 0.2895 - Accuracy: 86.59%
+Validation - Loss: 0.3332 - Accuracy: 84.10%
+Epoch 19/40 - Loss: 0.2736 - Accuracy: 87.76%
+Validation - Loss: 0.3439 - Accuracy: 83.39%
+Epoch 20/40 - Loss: 0.2716 - Accuracy: 87.64%
+Validation - Loss: 0.3148 - Accuracy: 85.61%
+Epoch 21/40 - Loss: 0.2651 - Accuracy: 88.02%
+Validation - Loss: 0.3537 - Accuracy: 84.90%
+Epoch 22/40 - Loss: 0.2807 - Accuracy: 87.88%
+Validation - Loss: 0.3262 - Accuracy: 84.66%
+Epoch 23/40 - Loss: 0.2549 - Accuracy: 88.26%
+Validation - Loss: 0.2996 - Accuracy: 86.96%
+Epoch 24/40 - Loss: 0.2451 - Accuracy: 89.92%
+Validation - Loss: 0.3733 - Accuracy: 84.18%
+Epoch 25/40 - Loss: 0.2577 - Accuracy: 88.35%
+Validation - Loss: 0.3019 - Accuracy: 87.12%
+Epoch 26/40 - Loss: 0.2478 - Accuracy: 88.97%
+Validation - Loss: 0.3302 - Accuracy: 84.58%
+Epoch 27/40 - Loss: 0.2388 - Accuracy: 89.88%
+Validation - Loss: 0.3305 - Accuracy: 84.74%
+Epoch 28/40 - Loss: 0.2424 - Accuracy: 89.45%
+Validation - Loss: 0.3049 - Accuracy: 85.93%
+Epoch 29/40 - Loss: 0.2402 - Accuracy: 89.59%
+Validation - Loss: 0.3246 - Accuracy: 85.37%
+Epoch 30/40 - Loss: 0.2280 - Accuracy: 89.83%
+Validation - Loss: 0.2930 - Accuracy: 86.41%
+Epoch 31/40 - Loss: 56.5346 - Accuracy: 76.59%
+Validation - Loss: 5.8054 - Accuracy: 59.62%
+Epoch 32/40 - Loss: 4.0668 - Accuracy: 53.64%
+Validation - Loss: 0.6895 - Accuracy: 57.87%
+Epoch 33/40 - Loss: 0.7073 - Accuracy: 57.67%
+Validation - Loss: 0.6939 - Accuracy: 54.45%
+Epoch 34/40 - Loss: 0.6760 - Accuracy: 59.38%
+Validation - Loss: 0.6694 - Accuracy: 59.06%
+Epoch 35/40 - Loss: 0.6667 - Accuracy: 60.25%
+Validation - Loss: 0.8366 - Accuracy: 59.46%
+Epoch 36/40 - Loss: 0.6816 - Accuracy: 59.98%
+Validation - Loss: 0.6302 - Accuracy: 64.23%
+Epoch 37/40 - Loss: 0.6875 - Accuracy: 59.54%
+Validation - Loss: 0.6421 - Accuracy: 63.20%
+Epoch 38/40 - Loss: 0.6672 - Accuracy: 60.47%
+Validation - Loss: 0.7259 - Accuracy: 59.54%
+Epoch 39/40 - Loss: 0.6515 - Accuracy: 62.26%
+Validation - Loss: 0.6311 - Accuracy: 63.20%
+Epoch 40/40 - Loss: 0.6610 - Accuracy: 61.76%
+Validation - Loss: 0.6222 - Accuracy: 63.51%
+trained model
+metrics plotted
+
+Metrics saved to: rmlp_raw/metrics_rmlp_raw.txt
+Test Accuracy: 54.50%
+F1 Score: 0.2353
+Recall: 0.1400
+Precision: 0.7368
+ROC AUC: 0.6747
+
+Confidence statistics saved to: rmlp_raw/confidence_statistics_rmlp_raw.txt
+model evaluated
+Model saved successfully!
+model saved
+it took:  951.0094912052155
+training time saved
+Finished training process.

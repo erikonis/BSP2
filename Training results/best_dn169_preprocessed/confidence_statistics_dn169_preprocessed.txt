@@ -1,0 +1,6 @@
+Model      Dataset      Label    Samples  Average Confidence Max Confidence Min Confidence
+------------------------------------------------------------------------------------------
+dn169      preprocessed Student  92       0.977              1.000          0.527         
+dn169      preprocessed AI       96       0.919              0.998          0.522         
+
+Table 6: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes

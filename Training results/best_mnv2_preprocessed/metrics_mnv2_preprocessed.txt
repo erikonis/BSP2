@@ -1,0 +1,8 @@
+Model: mnv2
+Dataset: preprocessed
+------------------------------
+F1 Score: 0.9453
+Recall: 0.9500
+Precision: 0.9406
+Accuracy: 94.50%
+------------------------------

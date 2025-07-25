@@ -1,0 +1,8 @@
+Model: vgg19
+Dataset: preprocessed
+------------------------------
+F1 Score: 0.9417
+Recall: 0.9700
+Precision: 0.9151
+Accuracy: 94.00%
+------------------------------

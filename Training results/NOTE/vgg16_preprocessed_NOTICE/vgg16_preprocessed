@@ -1,0 +1,110 @@
+Starting...
+/mnt/aiongpfs/users/ekadisa/micromamba/envs/CNN-project/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/aiongpfs/users/ekadisa/micromamba/envs/CNN-project/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Entered main function. Starting training process.
+start time:  1747051169.1864185
+Made output directory:  vgg16_preprocessed/
+Using device: cuda
+Downloading: "https://download.pytorch.org/models/vgg16-397923af.pth" to /home/users/ekadisa/.cache/torch/hub/checkpoints/vgg16-397923af.pth
+  0%|          | 0.00/528M [00:00<?, ?B/s]  0%|          | 896k/528M [00:00<01:23, 6.61MB/s]  1%|          | 3.38M/528M [00:00<00:35, 15.6MB/s]  1%|          | 5.50M/528M [00:00<00:31, 17.6MB/s]  2%|▏         | 8.12M/528M [00:00<00:26, 20.9MB/s]  2%|▏         | 10.2M/528M [00:00<00:25, 21.3MB/s]  2%|▏         | 12.5M/528M [00:00<00:25, 21.5MB/s]  3%|▎         | 14.9M/528M [00:00<00:25, 21.3MB/s]  3%|▎         | 17.6M/528M [00:00<00:23, 23.2MB/s]  4%|▍         | 20.6M/528M [00:01<00:21, 24.8MB/s]  4%|▍         | 23.6M/528M [00:01<00:20, 26.2MB/s]  5%|▍         | 26.2M/528M [00:01<00:20, 26.2MB/s]  5%|▌         | 28.9M/528M [00:01<00:20, 26.1MB/s]  6%|▌         | 32.1M/528M [00:01<00:19, 27.1MB/s]  7%|▋         | 36.1M/528M [00:01<00:16, 31.2MB/s]  8%|▊         | 39.6M/528M [00:01<00:16, 31.7MB/s]  8%|▊         | 43.6M/528M [00:01<00:15, 33.7MB/s]  9%|▉         | 47.0M/528M [00:01<00:14, 34.0MB/s] 10%|▉         | 51.1M/528M [00:01<00:13, 35.9MB/s] 11%|█         | 55.6M/528M [00:02<00:12, 38.8MB/s] 11%|█         | 59.4M/528M [00:02<00:12, 38.4MB/s] 12%|█▏        | 64.0M/528M [00:02<00:11, 41.3MB/s] 13%|█▎        | 68.0M/528M [00:02<00:11, 40.2MB/s] 14%|█▍        | 72.6M/528M [00:02<00:11, 42.6MB/s] 15%|█▍        | 76.8M/528M [00:02<00:11, 42.7MB/s] 15%|█▌        | 81.0M/528M [00:02<00:11, 42.2MB/s] 16%|█▌        | 85.5M/528M [00:02<00:10, 43.6MB/s] 17%|█▋        | 90.0M/528M [00:02<00:10, 44.2MB/s] 18%|█▊        | 94.2M/528M [00:03<00:10, 43.0MB/s] 19%|█▊        | 98.4M/528M [00:03<00:11, 39.7MB/s] 20%|█▉        | 103M/528M [00:03<00:10, 41.4MB/s]  20%|██        | 107M/528M [00:03<00:10, 40.8MB/s] 21%|██        | 112M/528M [00:03<00:09, 43.6MB/s] 22%|██▏       | 116M/528M [00:03<00:09, 43.6MB/s] 23%|██▎       | 121M/528M [00:03<00:10, 42.4MB/s] 24%|██▍       | 125M/528M [00:03<00:09, 42.6MB/s] 25%|██▍       | 130M/528M [00:03<00:09, 42.7MB/s] 25%|██▌       | 134M/528M [00:04<00:09, 43.7MB/s] 26%|██▌       | 138M/528M [00:04<00:09, 41.8MB/s] 27%|██▋       | 143M/528M [00:04<00:11, 36.7MB/s] 28%|██▊       | 147M/528M [00:04<00:11, 36.1MB/s] 29%|██▊       | 152M/528M [00:04<00:10, 36.9MB/s] 29%|██▉       | 155M/528M [00:04<00:10, 36.6MB/s] 30%|███       | 159M/528M [00:04<00:10, 37.2MB/s] 31%|███       | 164M/528M [00:04<00:09, 39.0MB/s] 32%|███▏      | 168M/528M [00:04<00:09, 39.2MB/s] 33%|███▎      | 172M/528M [00:05<00:09, 38.6MB/s] 33%|███▎      | 176M/528M [00:05<00:09, 39.1MB/s] 34%|███▍      | 180M/528M [00:05<00:09, 38.4MB/s] 35%|███▍      | 184M/528M [00:05<00:09, 38.7MB/s] 36%|███▌      | 188M/528M [00:05<00:09, 36.9MB/s] 37%|███▋      | 194M/528M [00:05<00:08, 41.5MB/s] 37%|███▋      | 198M/528M [00:05<00:08, 41.1MB/s] 38%|███▊      | 202M/528M [00:05<00:08, 41.0MB/s] 39%|███▉      | 206M/528M [00:05<00:08, 41.6MB/s] 40%|███▉      | 210M/528M [00:06<00:08, 41.0MB/s] 41%|████      | 214M/528M [00:06<00:08, 39.2MB/s] 41%|████▏     | 219M/528M [00:06<00:07, 40.8MB/s] 42%|████▏     | 223M/528M [00:06<00:07, 40.6MB/s] 43%|████▎     | 227M/528M [00:06<00:08, 38.6MB/s] 44%|████▎     | 231M/528M [00:06<00:08, 37.0MB/s] 44%|████▍     | 234M/528M [00:06<00:08, 35.1MB/s] 45%|████▌     | 238M/528M [00:06<00:08, 35.3MB/s] 46%|████▌     | 241M/528M [00:07<00:09, 32.4MB/s] 46%|████▋     | 245M/528M [00:07<00:09, 31.6MB/s] 47%|████▋     | 248M/528M [00:07<00:08, 33.4MB/s] 48%|████▊     | 253M/528M [00:07<00:07, 36.4MB/s] 49%|████▊     | 257M/528M [00:07<00:08, 35.1MB/s] 49%|████▉     | 260M/528M [00:07<00:08, 34.0MB/s] 50%|█████     | 265M/528M [00:07<00:07, 36.8MB/s] 51%|█████     | 269M/528M [00:07<00:07, 36.8MB/s] 52%|█████▏    | 272M/528M [00:07<00:07, 37.3MB/s] 53%|█████▎    | 277M/528M [00:07<00:06, 40.4MB/s] 53%|█████▎    | 281M/528M [00:08<00:06, 40.7MB/s] 54%|█████▍    | 285M/528M [00:08<00:06, 40.2MB/s] 55%|█████▍    | 289M/528M [00:08<00:06, 37.9MB/s] 56%|█████▌    | 294M/528M [00:08<00:05, 41.0MB/s] 56%|█████▋    | 298M/528M [00:08<00:06, 38.6MB/s] 57%|█████▋    | 302M/528M [00:08<00:06, 38.3MB/s] 58%|█████▊    | 306M/528M [00:08<00:05, 38.9MB/s] 59%|█████▊    | 310M/528M [00:08<00:05, 40.1MB/s] 60%|█████▉    | 315M/528M [00:08<00:05, 42.1MB/s] 60%|██████    | 319M/528M [00:09<00:05, 41.5MB/s] 61%|██████    | 323M/528M [00:09<00:05, 40.7MB/s] 62%|██████▏   | 327M/528M [00:09<00:04, 42.1MB/s] 63%|██████▎   | 332M/528M [00:09<00:05, 39.9MB/s] 64%|██████▎   | 336M/528M [00:09<00:04, 40.7MB/s] 64%|██████▍   | 340M/528M [00:09<00:04, 39.9MB/s] 65%|██████▌   | 344M/528M [00:09<00:04, 40.8MB/s] 66%|██████▌   | 348M/528M [00:09<00:04, 40.2MB/s] 67%|██████▋   | 352M/528M [00:09<00:04, 39.4MB/s] 67%|██████▋   | 356M/528M [00:10<00:09, 18.3MB/s] 68%|██████▊   | 360M/528M [00:10<00:07, 22.6MB/s] 69%|██████▉   | 364M/528M [00:10<00:06, 24.8MB/s] 70%|██████▉   | 367M/528M [00:10<00:06, 28.0MB/s] 70%|███████   | 372M/528M [00:10<00:05, 32.0MB/s] 71%|███████   | 376M/528M [00:10<00:04, 32.7MB/s] 72%|███████▏  | 380M/528M [00:11<00:04, 34.2MB/s] 73%|███████▎  | 383M/528M [00:11<00:04, 33.5MB/s] 73%|███████▎  | 387M/528M [00:11<00:04, 35.3MB/s] 74%|███████▍  | 391M/528M [00:11<00:04, 32.4MB/s] 75%|███████▍  | 395M/528M [00:11<00:03, 35.2MB/s] 76%|███████▌  | 399M/528M [00:11<00:03, 36.0MB/s] 76%|███████▋  | 403M/528M [00:11<00:03, 35.1MB/s] 77%|███████▋  | 407M/528M [00:11<00:03, 38.3MB/s] 78%|███████▊  | 411M/528M [00:12<00:03, 37.4MB/s] 79%|███████▊  | 415M/528M [00:12<00:03, 36.2MB/s] 80%|███████▉  | 420M/528M [00:12<00:02, 40.7MB/s] 80%|████████  | 424M/528M [00:12<00:02, 38.1MB/s] 81%|████████  | 428M/528M [00:12<00:02, 37.1MB/s] 82%|████████▏ | 434M/528M [00:12<00:02, 41.8MB/s] 83%|████████▎ | 438M/528M [00:12<00:02, 41.0MB/s] 84%|████████▎ | 442M/528M [00:12<00:02, 41.6MB/s] 85%|████████▍ | 446M/528M [00:12<00:02, 42.2MB/s] 85%|████████▌ | 450M/528M [00:13<00:01, 42.9MB/s] 86%|████████▌ | 455M/528M [00:13<00:01, 43.7MB/s] 87%|████████▋ | 459M/528M [00:13<00:01, 42.1MB/s] 88%|████████▊ | 463M/528M [00:13<00:01, 42.3MB/s] 89%|████████▊ | 467M/528M [00:13<00:01, 41.4MB/s] 89%|████████▉ | 472M/528M [00:13<00:01, 42.2MB/s] 90%|█████████ | 476M/528M [00:13<00:01, 42.6MB/s] 91%|█████████ | 480M/528M [00:13<00:01, 39.8MB/s] 92%|█████████▏| 484M/528M [00:13<00:01, 38.7MB/s] 93%|█████████▎| 489M/528M [00:14<00:01, 40.1MB/s] 93%|█████████▎| 493M/528M [00:14<00:00, 38.9MB/s] 94%|█████████▍| 497M/528M [00:14<00:00, 38.1MB/s] 95%|█████████▍| 501M/528M [00:14<00:00, 37.3MB/s] 96%|█████████▌| 505M/528M [00:14<00:00, 36.4MB/s] 96%|█████████▋| 509M/528M [00:14<00:00, 35.9MB/s] 97%|█████████▋| 513M/528M [00:14<00:00, 35.6MB/s] 98%|█████████▊| 517M/528M [00:14<00:00, 37.5MB/s] 99%|█████████▉| 522M/528M [00:14<00:00, 40.1MB/s]100%|█████████▉| 526M/528M [00:15<00:00, 39.7MB/s]100%|██████████| 528M/528M [00:15<00:00, 36.7MB/s]
+model loaded in: 16.88561463356018
+data loaded
+Epoch 1/40 - Loss: 0.6882 - Accuracy: 56.41%
+Validation - Loss: 0.6831 - Accuracy: 57.17%
+Epoch 2/40 - Loss: 0.6836 - Accuracy: 57.79%
+Validation - Loss: 0.6865 - Accuracy: 57.17%
+Epoch 3/40 - Loss: 0.6827 - Accuracy: 57.81%
+Validation - Loss: 0.6840 - Accuracy: 57.17%
+Epoch 4/40 - Loss: 0.6809 - Accuracy: 57.36%
+Validation - Loss: 0.6885 - Accuracy: 57.17%
+Epoch 5/40 - Loss: 0.6832 - Accuracy: 57.68%
+Validation - Loss: 0.6873 - Accuracy: 57.17%
+Epoch 6/40 - Loss: 0.6853 - Accuracy: 57.85%
+Validation - Loss: 0.6834 - Accuracy: 57.17%
+Epoch 7/40 - Loss: 0.6829 - Accuracy: 57.83%
+Validation - Loss: 0.6810 - Accuracy: 57.17%
+Epoch 8/40 - Loss: 0.6794 - Accuracy: 57.81%
+Validation - Loss: 0.6854 - Accuracy: 57.42%
+Epoch 9/40 - Loss: 0.6831 - Accuracy: 57.83%
+Validation - Loss: 0.6884 - Accuracy: 57.17%
+Epoch 10/40 - Loss: 0.6805 - Accuracy: 57.66%
+Validation - Loss: 0.6793 - Accuracy: 57.17%
+Epoch 11/40 - Loss: 0.6746 - Accuracy: 58.32%
+Validation - Loss: 0.6565 - Accuracy: 64.63%
+Epoch 12/40 - Loss: 0.6810 - Accuracy: 57.42%
+Validation - Loss: 0.6830 - Accuracy: 57.17%
+Epoch 13/40 - Loss: 0.6805 - Accuracy: 57.83%
+Validation - Loss: 0.6820 - Accuracy: 57.17%
+Epoch 14/40 - Loss: 0.6783 - Accuracy: 57.79%
+Validation - Loss: 0.6641 - Accuracy: 57.08%
+Epoch 15/40 - Loss: 0.6680 - Accuracy: 58.74%
+Validation - Loss: 0.6692 - Accuracy: 58.27%
+Epoch 16/40 - Loss: 0.5972 - Accuracy: 67.14%
+Validation - Loss: 0.4653 - Accuracy: 79.73%
+Epoch 17/40 - Loss: 0.4086 - Accuracy: 80.78%
+Validation - Loss: 0.4721 - Accuracy: 77.10%
+Epoch 18/40 - Loss: 0.2980 - Accuracy: 87.29%
+Validation - Loss: 0.2637 - Accuracy: 89.31%
+Epoch 19/40 - Loss: 0.2969 - Accuracy: 87.51%
+Validation - Loss: 0.2777 - Accuracy: 88.55%
+Epoch 20/40 - Loss: 0.2483 - Accuracy: 90.01%
+Validation - Loss: 0.2387 - Accuracy: 90.16%
+Epoch 21/40 - Loss: 0.2398 - Accuracy: 90.39%
+Validation - Loss: 0.2322 - Accuracy: 91.01%
+Epoch 22/40 - Loss: 0.2210 - Accuracy: 91.45%
+Validation - Loss: 0.2215 - Accuracy: 90.84%
+Epoch 23/40 - Loss: 0.2186 - Accuracy: 91.54%
+Validation - Loss: 0.2711 - Accuracy: 88.38%
+Epoch 24/40 - Loss: 0.2196 - Accuracy: 91.68%
+Validation - Loss: 0.2350 - Accuracy: 90.25%
+Epoch 25/40 - Loss: 0.2130 - Accuracy: 92.09%
+Validation - Loss: 0.2298 - Accuracy: 91.09%
+Epoch 26/40 - Loss: 0.2067 - Accuracy: 91.98%
+Validation - Loss: 0.2199 - Accuracy: 91.01%
+Epoch 27/40 - Loss: 0.2026 - Accuracy: 92.13%
+Validation - Loss: 0.2082 - Accuracy: 92.20%
+Epoch 28/40 - Loss: 0.1940 - Accuracy: 92.58%
+Validation - Loss: 0.1990 - Accuracy: 92.79%
+Epoch 29/40 - Loss: 0.2150 - Accuracy: 91.60%
+Validation - Loss: 0.2280 - Accuracy: 91.43%
+Epoch 30/40 - Loss: 0.2018 - Accuracy: 92.13%
+Validation - Loss: 0.2097 - Accuracy: 91.60%
+Epoch 31/40 - Loss: 0.1875 - Accuracy: 93.15%
+Validation - Loss: 0.2013 - Accuracy: 92.03%
+Epoch 32/40 - Loss: 0.1896 - Accuracy: 92.75%
+Validation - Loss: 0.2412 - Accuracy: 89.82%
+Epoch 33/40 - Loss: 0.1859 - Accuracy: 93.15%
+Validation - Loss: 0.1974 - Accuracy: 92.28%
+Epoch 34/40 - Loss: 0.1979 - Accuracy: 92.55%
+Validation - Loss: 0.2075 - Accuracy: 91.69%
+Epoch 35/40 - Loss: 0.1856 - Accuracy: 93.17%
+Validation - Loss: 0.1947 - Accuracy: 91.86%
+Epoch 36/40 - Loss: 0.1688 - Accuracy: 94.04%
+Validation - Loss: 0.2918 - Accuracy: 90.25%
+Epoch 37/40 - Loss: 0.1750 - Accuracy: 93.57%
+Validation - Loss: 0.2254 - Accuracy: 91.69%
+Epoch 38/40 - Loss: 0.1810 - Accuracy: 93.38%
+Validation - Loss: 0.1884 - Accuracy: 92.71%
+Epoch 39/40 - Loss: 0.1744 - Accuracy: 93.49%
+Validation - Loss: 0.1999 - Accuracy: 93.30%
+Epoch 40/40 - Loss: 0.1739 - Accuracy: 93.59%
+Validation - Loss: 0.2110 - Accuracy: 92.20%
+trained model
+metrics plotted
+
+Metrics saved to: vgg16_preprocessed/metrics_vgg16_preprocessed.txt
+Test Accuracy: 94.00%
+F1 Score: 0.9423
+Recall: 0.9800
+Precision: 0.9074
+ROC AUC: 0.9455
+
+Confidence statistics saved to: vgg16_preprocessed/confidence_statistics_vgg16_preprocessed.txt
+model evaluated
+Model saved successfully!
+model saved
+it took:  1279.3229253292084
+training time saved
+Finished training process.

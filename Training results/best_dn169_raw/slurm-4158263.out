@@ -1,0 +1,134 @@
+Starting...
+/mnt/aiongpfs/users/ekadisa/micromamba/envs/CNN-project/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/aiongpfs/users/ekadisa/micromamba/envs/CNN-project/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=DenseNet169_Weights.IMAGENET1K_V1`. You can also use `weights=DenseNet169_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Entered main function. Starting training process.
+start time:  1748776720.0615482
+Made output directory:  best_dn169_raw/
+Using device: cuda
+model loaded in: 0.5992205142974854
+data loaded
+Epoch 1/40 - Loss: 0.5370 - Accuracy: 70.31%
+Validation - Loss: 0.3848 - Accuracy: 81.16%
+Validation loss decreased (inf → 0.384823). Saving model...
+Epoch 2/40 - Loss: 0.3400 - Accuracy: 84.46%
+Validation - Loss: 0.3229 - Accuracy: 86.41%
+Validation loss decreased (0.384823 → 0.322914). Saving model...
+Epoch 3/40 - Loss: 0.2681 - Accuracy: 89.15%
+Validation - Loss: 0.2327 - Accuracy: 90.70%
+Validation loss decreased (0.322914 → 0.232695). Saving model...
+Epoch 4/40 - Loss: 0.2482 - Accuracy: 89.53%
+Validation - Loss: 0.2546 - Accuracy: 89.51%
+EarlyStopping counter: 1 out of 5
+Epoch 5/40 - Loss: 0.2188 - Accuracy: 90.98%
+Validation - Loss: 0.2151 - Accuracy: 90.70%
+Validation loss decreased (0.232695 → 0.215113). Saving model...
+Epoch 6/40 - Loss: 0.1982 - Accuracy: 91.61%
+Validation - Loss: 0.1853 - Accuracy: 92.53%
+Validation loss decreased (0.215113 → 0.185333). Saving model...
+Epoch 7/40 - Loss: 0.1875 - Accuracy: 92.35%
+Validation - Loss: 0.2141 - Accuracy: 91.49%
+EarlyStopping counter: 1 out of 5
+Epoch 8/40 - Loss: 0.1711 - Accuracy: 92.98%
+Validation - Loss: 0.1955 - Accuracy: 90.86%
+EarlyStopping counter: 2 out of 5
+Epoch 9/40 - Loss: 0.1675 - Accuracy: 93.04%
+Validation - Loss: 0.1985 - Accuracy: 91.81%
+EarlyStopping counter: 3 out of 5
+Epoch 10/40 - Loss: 0.1518 - Accuracy: 94.06%
+Validation - Loss: 0.1732 - Accuracy: 93.16%
+Validation loss decreased (0.185333 → 0.173186). Saving model...
+Epoch 11/40 - Loss: 0.1413 - Accuracy: 94.50%
+Validation - Loss: 0.1696 - Accuracy: 93.48%
+Validation loss decreased (0.173186 → 0.169567). Saving model...
+Epoch 12/40 - Loss: 0.1346 - Accuracy: 94.71%
+Validation - Loss: 0.2378 - Accuracy: 91.49%
+EarlyStopping counter: 1 out of 5
+Epoch 13/40 - Loss: 0.1313 - Accuracy: 94.77%
+Validation - Loss: 0.1714 - Accuracy: 93.88%
+EarlyStopping counter: 2 out of 5
+Epoch 14/40 - Loss: 0.1234 - Accuracy: 95.41%
+Validation - Loss: 0.1751 - Accuracy: 93.56%
+EarlyStopping counter: 3 out of 5
+Epoch 15/40 - Loss: 0.1165 - Accuracy: 95.17%
+Validation - Loss: 0.2644 - Accuracy: 89.59%
+EarlyStopping counter: 4 out of 5
+Epoch 16/40 - Loss: 0.1017 - Accuracy: 96.05%
+Validation - Loss: 0.1522 - Accuracy: 94.52%
+Validation loss decreased (0.169567 → 0.152176). Saving model...
+Epoch 17/40 - Loss: 0.0929 - Accuracy: 96.64%
+Validation - Loss: 0.1503 - Accuracy: 94.36%
+Validation loss decreased (0.152176 → 0.150304). Saving model...
+Epoch 18/40 - Loss: 0.0908 - Accuracy: 96.68%
+Validation - Loss: 0.2333 - Accuracy: 89.90%
+EarlyStopping counter: 1 out of 5
+Epoch 19/40 - Loss: 0.0939 - Accuracy: 96.18%
+Validation - Loss: 0.1714 - Accuracy: 93.08%
+EarlyStopping counter: 2 out of 5
+Epoch 20/40 - Loss: 0.0731 - Accuracy: 96.96%
+Validation - Loss: 0.1466 - Accuracy: 94.52%
+Validation loss decreased (0.150304 → 0.146638). Saving model...
+Epoch 21/40 - Loss: 0.0735 - Accuracy: 97.08%
+Validation - Loss: 0.2109 - Accuracy: 93.96%
+EarlyStopping counter: 1 out of 5
+Epoch 22/40 - Loss: 0.0740 - Accuracy: 97.08%
+Validation - Loss: 0.1555 - Accuracy: 93.64%
+EarlyStopping counter: 2 out of 5
+Epoch 23/40 - Loss: 0.0591 - Accuracy: 98.05%
+Validation - Loss: 0.1934 - Accuracy: 94.59%
+EarlyStopping counter: 3 out of 5
+Epoch 24/40 - Loss: 0.0592 - Accuracy: 97.99%
+Validation - Loss: 0.2615 - Accuracy: 92.45%
+EarlyStopping counter: 4 out of 5
+Epoch 25/40 - Loss: 0.0799 - Accuracy: 97.34%
+Validation - Loss: 0.2913 - Accuracy: 90.30%
+EarlyStopping counter: 5 out of 5
+Epoch 26/40 - Loss: 0.1022 - Accuracy: 96.05%
+Validation - Loss: 0.2116 - Accuracy: 90.54%
+Epoch 27/40 - Loss: 0.0632 - Accuracy: 97.54%
+Validation - Loss: 0.1616 - Accuracy: 94.20%
+Epoch 28/40 - Loss: 0.0558 - Accuracy: 98.01%
+Validation - Loss: 0.1830 - Accuracy: 93.32%
+Epoch 29/40 - Loss: 0.0535 - Accuracy: 97.97%
+Validation - Loss: 0.2261 - Accuracy: 92.45%
+Epoch 30/40 - Loss: 0.0466 - Accuracy: 98.15%
+Validation - Loss: 0.1742 - Accuracy: 93.96%
+Epoch 31/40 - Loss: 0.0496 - Accuracy: 98.35%
+Validation - Loss: 0.1498 - Accuracy: 94.67%
+Epoch 32/40 - Loss: 0.0566 - Accuracy: 97.93%
+Validation - Loss: 0.1590 - Accuracy: 93.80%
+Epoch 33/40 - Loss: 0.0425 - Accuracy: 98.43%
+Validation - Loss: 0.2326 - Accuracy: 93.32%
+Epoch 34/40 - Loss: 0.0456 - Accuracy: 98.21%
+Validation - Loss: 0.1863 - Accuracy: 93.16%
+Epoch 35/40 - Loss: 0.0466 - Accuracy: 98.49%
+Validation - Loss: 0.2091 - Accuracy: 93.72%
+Epoch 36/40 - Loss: 0.0427 - Accuracy: 98.59%
+Validation - Loss: 0.1926 - Accuracy: 94.52%
+Epoch 37/40 - Loss: 0.0496 - Accuracy: 98.21%
+Validation - Loss: 0.1706 - Accuracy: 93.64%
+Epoch 38/40 - Loss: 0.0579 - Accuracy: 97.85%
+Validation - Loss: 0.1623 - Accuracy: 94.52%
+Epoch 39/40 - Loss: 0.0370 - Accuracy: 98.81%
+Validation - Loss: 0.1704 - Accuracy: 94.36%
+Epoch 40/40 - Loss: 0.0338 - Accuracy: 98.81%
+Validation - Loss: 0.1874 - Accuracy: 93.96%
+Best model saved at epoch 20 with accuracy: 94.52%
+trained model
+metrics plotted
+Loading the best model for evaluation...
+Best model loaded successfully
+
+Metrics saved to: best_dn169_raw/metrics_dn169_raw.txt
+Test Accuracy: 97.00%
+F1 Score: 0.9697
+Recall: 0.9600
+Precision: 0.9796
+ROC AUC: 0.9974
+
+Confidence statistics saved to: best_dn169_raw/confidence_statistics_dn169_raw.txt
+model evaluated
+it took:  1289.6461312770844
+training time saved
+Finished training process.

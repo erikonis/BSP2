@@ -1,0 +1,118 @@
+Starting...
+/mnt/aiongpfs/users/ekadisa/micromamba/envs/CNN-project/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/aiongpfs/users/ekadisa/micromamba/envs/CNN-project/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=DenseNet121_Weights.IMAGENET1K_V1`. You can also use `weights=DenseNet121_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Entered main function. Starting training process.
+start time:  1748201912.3442407
+Made output directory:  best_dn121_raw/
+Using device: cuda
+model loaded in: 0.5345971584320068
+data loaded
+Epoch 1/40 - Loss: 0.5594 - Accuracy: 69.71%
+Validation - Loss: 0.4519 - Accuracy: 79.57%
+New best model saved with accuracy: 79.57%
+Epoch 2/40 - Loss: 0.3887 - Accuracy: 81.58%
+Validation - Loss: 0.3281 - Accuracy: 84.90%
+New best model saved with accuracy: 84.90%
+Epoch 3/40 - Loss: 0.3196 - Accuracy: 85.04%
+Validation - Loss: 0.4767 - Accuracy: 75.68%
+Epoch 4/40 - Loss: 0.2814 - Accuracy: 88.02%
+Validation - Loss: 0.2753 - Accuracy: 87.76%
+New best model saved with accuracy: 87.76%
+Epoch 5/40 - Loss: 0.2401 - Accuracy: 90.18%
+Validation - Loss: 0.2459 - Accuracy: 89.51%
+New best model saved with accuracy: 89.51%
+Epoch 6/40 - Loss: 0.2346 - Accuracy: 90.54%
+Validation - Loss: 0.2232 - Accuracy: 89.43%
+Epoch 7/40 - Loss: 0.2035 - Accuracy: 91.77%
+Validation - Loss: 0.3055 - Accuracy: 83.86%
+Epoch 8/40 - Loss: 0.1913 - Accuracy: 92.07%
+Validation - Loss: 0.2556 - Accuracy: 89.35%
+Epoch 9/40 - Loss: 0.1756 - Accuracy: 92.71%
+Validation - Loss: 0.2373 - Accuracy: 89.35%
+Epoch 10/40 - Loss: 0.1607 - Accuracy: 93.42%
+Validation - Loss: 0.2280 - Accuracy: 90.94%
+New best model saved with accuracy: 90.94%
+Epoch 11/40 - Loss: 0.1612 - Accuracy: 93.04%
+Validation - Loss: 0.1791 - Accuracy: 91.97%
+New best model saved with accuracy: 91.97%
+Epoch 12/40 - Loss: 0.1410 - Accuracy: 94.48%
+Validation - Loss: 0.2349 - Accuracy: 90.46%
+Epoch 13/40 - Loss: 0.1285 - Accuracy: 94.81%
+Validation - Loss: 0.1889 - Accuracy: 93.16%
+New best model saved with accuracy: 93.16%
+Epoch 14/40 - Loss: 0.1130 - Accuracy: 95.67%
+Validation - Loss: 0.1895 - Accuracy: 92.45%
+Epoch 15/40 - Loss: 0.1339 - Accuracy: 95.09%
+Validation - Loss: 0.2147 - Accuracy: 91.26%
+Epoch 16/40 - Loss: 0.1253 - Accuracy: 94.95%
+Validation - Loss: 0.1626 - Accuracy: 93.24%
+New best model saved with accuracy: 93.24%
+Epoch 17/40 - Loss: 0.1057 - Accuracy: 95.71%
+Validation - Loss: 0.1855 - Accuracy: 92.37%
+Epoch 18/40 - Loss: 0.0927 - Accuracy: 96.42%
+Validation - Loss: 0.1734 - Accuracy: 93.00%
+Epoch 19/40 - Loss: 0.0848 - Accuracy: 96.76%
+Validation - Loss: 0.1698 - Accuracy: 92.45%
+Epoch 20/40 - Loss: 0.0818 - Accuracy: 96.74%
+Validation - Loss: 0.2400 - Accuracy: 90.38%
+Epoch 21/40 - Loss: 0.0772 - Accuracy: 96.94%
+Validation - Loss: 0.1897 - Accuracy: 92.05%
+Epoch 22/40 - Loss: 0.0753 - Accuracy: 97.26%
+Validation - Loss: 0.2311 - Accuracy: 91.10%
+Epoch 23/40 - Loss: 0.0759 - Accuracy: 97.18%
+Validation - Loss: 0.1872 - Accuracy: 93.16%
+Epoch 24/40 - Loss: 0.0732 - Accuracy: 97.26%
+Validation - Loss: 0.1678 - Accuracy: 92.93%
+Epoch 25/40 - Loss: 0.0579 - Accuracy: 97.73%
+Validation - Loss: 0.2288 - Accuracy: 92.37%
+Epoch 26/40 - Loss: 0.0661 - Accuracy: 97.42%
+Validation - Loss: 0.2227 - Accuracy: 93.08%
+Epoch 27/40 - Loss: 0.0658 - Accuracy: 97.62%
+Validation - Loss: 0.1614 - Accuracy: 94.04%
+New best model saved with accuracy: 94.04%
+Epoch 28/40 - Loss: 0.0639 - Accuracy: 97.42%
+Validation - Loss: 0.1556 - Accuracy: 94.28%
+New best model saved with accuracy: 94.28%
+Epoch 29/40 - Loss: 0.0519 - Accuracy: 98.31%
+Validation - Loss: 0.1626 - Accuracy: 94.04%
+Epoch 30/40 - Loss: 0.0465 - Accuracy: 98.21%
+Validation - Loss: 0.2155 - Accuracy: 92.29%
+Epoch 31/40 - Loss: 0.0472 - Accuracy: 98.11%
+Validation - Loss: 0.2390 - Accuracy: 94.20%
+Epoch 32/40 - Loss: 0.0558 - Accuracy: 97.93%
+Validation - Loss: 0.2197 - Accuracy: 93.48%
+Epoch 33/40 - Loss: 0.0499 - Accuracy: 98.01%
+Validation - Loss: 0.1473 - Accuracy: 94.04%
+Epoch 34/40 - Loss: 0.0551 - Accuracy: 97.97%
+Validation - Loss: 0.1805 - Accuracy: 93.72%
+Epoch 35/40 - Loss: 0.0387 - Accuracy: 98.61%
+Validation - Loss: 0.1915 - Accuracy: 93.88%
+Epoch 36/40 - Loss: 0.0391 - Accuracy: 98.49%
+Validation - Loss: 0.1629 - Accuracy: 94.28%
+Epoch 37/40 - Loss: 0.0351 - Accuracy: 98.75%
+Validation - Loss: 0.1968 - Accuracy: 92.93%
+Epoch 38/40 - Loss: 0.0531 - Accuracy: 98.11%
+Validation - Loss: 0.1837 - Accuracy: 94.04%
+Epoch 39/40 - Loss: 0.0530 - Accuracy: 98.19%
+Validation - Loss: 0.2072 - Accuracy: 93.96%
+Epoch 40/40 - Loss: 0.0804 - Accuracy: 96.98%
+Validation - Loss: 0.1888 - Accuracy: 93.32%
+trained model
+metrics plotted
+Loading the best model for evaluation...
+Best model loaded successfully
+
+Metrics saved to: best_dn121_raw/metrics_dn121_raw.txt
+Test Accuracy: 94.00%
+F1 Score: 0.9381
+Recall: 0.9100
+Precision: 0.9681
+ROC AUC: 0.9890
+
+Confidence statistics saved to: best_dn121_raw/confidence_statistics_dn121_raw.txt
+model evaluated
+it took:  1102.6554656028748
+training time saved
+Finished training process.

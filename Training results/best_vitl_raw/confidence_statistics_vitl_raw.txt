@@ -1,0 +1,6 @@
+Model      Dataset      Label    Samples  Average Confidence Max Confidence Min Confidence
+------------------------------------------------------------------------------------------
+vitl       raw          Student  91       0.959              1.000          0.530         
+vitl       raw          AI       84       0.815              0.952          0.533         
+
+Table 6: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes

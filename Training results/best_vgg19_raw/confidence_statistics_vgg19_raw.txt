@@ -1,0 +1,6 @@
+Model      Dataset      Label    Samples  Average Confidence Max Confidence Min Confidence
+------------------------------------------------------------------------------------------
+vgg19      raw          Student  92       0.976              1.000          0.608         
+vgg19      raw          AI       95       0.897              0.994          0.521         
+
+Table 6: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes

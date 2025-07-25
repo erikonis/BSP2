@@ -1,0 +1,1 @@
+Best model saved at epoch 19 with accuracy: 93.89%

@@ -1,0 +1,130 @@
+Starting...
+/mnt/aiongpfs/users/ekadisa/micromamba/envs/CNN-project/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/aiongpfs/users/ekadisa/micromamba/envs/CNN-project/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V3_Large_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V3_Large_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Entered main function. Starting training process.
+start time:  1748785699.3907273
+Made output directory:  best_mnv3_raw/
+Using device: cuda
+model loaded in: 0.361783504486084
+data loaded
+Epoch 1/40 - Loss: 0.6538 - Accuracy: 60.79%
+Validation - Loss: 0.6607 - Accuracy: 60.65%
+Validation loss decreased (inf → 0.660677). Saving model...
+Epoch 2/40 - Loss: 0.5167 - Accuracy: 73.25%
+Validation - Loss: 0.4900 - Accuracy: 72.89%
+Validation loss decreased (0.660677 → 0.490007). Saving model...
+Epoch 3/40 - Loss: 0.4273 - Accuracy: 79.41%
+Validation - Loss: 0.3737 - Accuracy: 81.88%
+Validation loss decreased (0.490007 → 0.373653). Saving model...
+Epoch 4/40 - Loss: 0.3841 - Accuracy: 82.05%
+Validation - Loss: 0.4373 - Accuracy: 77.90%
+EarlyStopping counter: 1 out of 5
+Epoch 5/40 - Loss: 0.3571 - Accuracy: 83.45%
+Validation - Loss: 0.3366 - Accuracy: 84.90%
+Validation loss decreased (0.373653 → 0.336618). Saving model...
+Epoch 6/40 - Loss: 0.3314 - Accuracy: 85.14%
+Validation - Loss: 0.3241 - Accuracy: 84.26%
+Validation loss decreased (0.336618 → 0.324117). Saving model...
+Epoch 7/40 - Loss: 0.3231 - Accuracy: 85.16%
+Validation - Loss: 0.3178 - Accuracy: 86.72%
+Validation loss decreased (0.324117 → 0.317820). Saving model...
+Epoch 8/40 - Loss: 0.2922 - Accuracy: 87.38%
+Validation - Loss: 0.4415 - Accuracy: 75.52%
+EarlyStopping counter: 1 out of 5
+Epoch 9/40 - Loss: 0.2768 - Accuracy: 87.94%
+Validation - Loss: 0.2810 - Accuracy: 87.36%
+Validation loss decreased (0.317820 → 0.280957). Saving model...
+Epoch 10/40 - Loss: 0.2675 - Accuracy: 88.59%
+Validation - Loss: 0.3067 - Accuracy: 85.61%
+EarlyStopping counter: 1 out of 5
+Epoch 11/40 - Loss: 0.2562 - Accuracy: 88.18%
+Validation - Loss: 0.2551 - Accuracy: 89.27%
+Validation loss decreased (0.280957 → 0.255093). Saving model...
+Epoch 12/40 - Loss: 0.2457 - Accuracy: 89.61%
+Validation - Loss: 0.2997 - Accuracy: 86.57%
+EarlyStopping counter: 1 out of 5
+Epoch 13/40 - Loss: 0.2430 - Accuracy: 89.61%
+Validation - Loss: 0.4160 - Accuracy: 80.21%
+EarlyStopping counter: 2 out of 5
+Epoch 14/40 - Loss: 0.2247 - Accuracy: 90.90%
+Validation - Loss: 0.4584 - Accuracy: 80.60%
+EarlyStopping counter: 3 out of 5
+Epoch 15/40 - Loss: 0.2212 - Accuracy: 90.64%
+Validation - Loss: 0.2770 - Accuracy: 87.92%
+EarlyStopping counter: 4 out of 5
+Epoch 16/40 - Loss: 0.2059 - Accuracy: 91.51%
+Validation - Loss: 0.2182 - Accuracy: 91.73%
+Validation loss decreased (0.255093 → 0.218223). Saving model...
+Epoch 17/40 - Loss: 0.1874 - Accuracy: 92.03%
+Validation - Loss: 0.3763 - Accuracy: 81.72%
+EarlyStopping counter: 1 out of 5
+Epoch 18/40 - Loss: 0.1848 - Accuracy: 92.15%
+Validation - Loss: 0.4152 - Accuracy: 83.15%
+EarlyStopping counter: 2 out of 5
+Epoch 19/40 - Loss: 0.1818 - Accuracy: 92.59%
+Validation - Loss: 0.2302 - Accuracy: 89.75%
+EarlyStopping counter: 3 out of 5
+Epoch 20/40 - Loss: 0.1698 - Accuracy: 92.93%
+Validation - Loss: 0.2511 - Accuracy: 89.35%
+EarlyStopping counter: 4 out of 5
+Epoch 21/40 - Loss: 0.1713 - Accuracy: 92.51%
+Validation - Loss: 0.2629 - Accuracy: 89.03%
+EarlyStopping counter: 5 out of 5
+Epoch 22/40 - Loss: 0.1602 - Accuracy: 93.60%
+Validation - Loss: 0.2125 - Accuracy: 92.21%
+Epoch 23/40 - Loss: 0.1466 - Accuracy: 94.67%
+Validation - Loss: 0.4729 - Accuracy: 79.17%
+Epoch 24/40 - Loss: 0.1416 - Accuracy: 94.32%
+Validation - Loss: 0.2817 - Accuracy: 87.44%
+Epoch 25/40 - Loss: 0.1459 - Accuracy: 94.20%
+Validation - Loss: 0.2342 - Accuracy: 90.86%
+Epoch 26/40 - Loss: 0.1373 - Accuracy: 94.50%
+Validation - Loss: 0.2819 - Accuracy: 88.87%
+Epoch 27/40 - Loss: 0.1407 - Accuracy: 94.50%
+Validation - Loss: 0.1957 - Accuracy: 91.81%
+Epoch 28/40 - Loss: 0.1255 - Accuracy: 95.07%
+Validation - Loss: 0.2293 - Accuracy: 91.57%
+Epoch 29/40 - Loss: 0.1256 - Accuracy: 94.69%
+Validation - Loss: 0.2338 - Accuracy: 90.46%
+Epoch 30/40 - Loss: 0.1115 - Accuracy: 95.49%
+Validation - Loss: 0.2618 - Accuracy: 89.19%
+Epoch 31/40 - Loss: 0.1150 - Accuracy: 95.63%
+Validation - Loss: 0.5229 - Accuracy: 79.25%
+Epoch 32/40 - Loss: 0.1096 - Accuracy: 95.87%
+Validation - Loss: 0.2061 - Accuracy: 92.37%
+Epoch 33/40 - Loss: 0.1023 - Accuracy: 96.14%
+Validation - Loss: 0.2685 - Accuracy: 91.02%
+Epoch 34/40 - Loss: 0.0973 - Accuracy: 96.28%
+Validation - Loss: 0.2600 - Accuracy: 89.75%
+Epoch 35/40 - Loss: 0.0905 - Accuracy: 96.38%
+Validation - Loss: 0.2797 - Accuracy: 89.98%
+Epoch 36/40 - Loss: 0.0827 - Accuracy: 97.08%
+Validation - Loss: 0.2754 - Accuracy: 91.10%
+Epoch 37/40 - Loss: 0.0893 - Accuracy: 96.54%
+Validation - Loss: 0.7771 - Accuracy: 79.01%
+Epoch 38/40 - Loss: 0.0813 - Accuracy: 96.62%
+Validation - Loss: 0.3579 - Accuracy: 88.00%
+Epoch 39/40 - Loss: 0.0782 - Accuracy: 97.00%
+Validation - Loss: 0.3011 - Accuracy: 89.83%
+Epoch 40/40 - Loss: 0.0767 - Accuracy: 97.32%
+Validation - Loss: 0.2415 - Accuracy: 92.29%
+Best model saved at epoch 16 with accuracy: 91.73%
+trained model
+metrics plotted
+Loading the best model for evaluation...
+Best model loaded successfully
+
+Metrics saved to: best_mnv3_raw/metrics_mnv3_raw.txt
+Test Accuracy: 92.00%
+F1 Score: 0.9208
+Recall: 0.9300
+Precision: 0.9118
+ROC AUC: 0.9869
+
+Confidence statistics saved to: best_mnv3_raw/confidence_statistics_mnv3_raw.txt
+model evaluated
+it took:  591.5374336242676
+training time saved
+Finished training process.

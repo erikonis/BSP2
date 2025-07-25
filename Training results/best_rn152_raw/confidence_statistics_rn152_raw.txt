@@ -1,0 +1,6 @@
+Model      Dataset      Label    Samples  Average Confidence Max Confidence Min Confidence
+------------------------------------------------------------------------------------------
+rn152      raw          Student  89       0.964              1.000          0.502         
+rn152      raw          AI       98       0.890              0.999          0.503         
+
+Table 6: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes

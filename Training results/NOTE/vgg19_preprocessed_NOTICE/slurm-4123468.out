@@ -1,0 +1,110 @@
+Starting...
+/mnt/aiongpfs/users/ekadisa/micromamba/envs/CNN-project/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/aiongpfs/users/ekadisa/micromamba/envs/CNN-project/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/mnt/aiongpfs/users/ekadisa/micromamba/envs/CNN-project/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Entered main function. Starting training process.
+start time:  1747035553.442976
+Made output directory:  vgg19_preprocessed/
+Using device: cuda
+model loaded in: 1.5013670921325684
+data loaded
+Epoch 1/40 - Loss: 0.6902 - Accuracy: 55.56%
+Validation - Loss: 0.6717 - Accuracy: 61.58%
+Epoch 2/40 - Loss: 0.6869 - Accuracy: 56.60%
+Validation - Loss: 0.6708 - Accuracy: 61.58%
+Epoch 3/40 - Loss: 0.6870 - Accuracy: 56.75%
+Validation - Loss: 0.6721 - Accuracy: 61.58%
+Epoch 4/40 - Loss: 0.6849 - Accuracy: 56.41%
+Validation - Loss: 0.6691 - Accuracy: 61.58%
+Epoch 5/40 - Loss: 0.6855 - Accuracy: 56.39%
+Validation - Loss: 0.6740 - Accuracy: 61.58%
+Epoch 6/40 - Loss: 0.6859 - Accuracy: 56.58%
+Validation - Loss: 0.6710 - Accuracy: 61.58%
+Epoch 7/40 - Loss: 0.6846 - Accuracy: 56.70%
+Validation - Loss: 0.6670 - Accuracy: 61.58%
+Epoch 8/40 - Loss: 0.6861 - Accuracy: 56.70%
+Validation - Loss: 0.6717 - Accuracy: 61.58%
+Epoch 9/40 - Loss: 0.6859 - Accuracy: 56.32%
+Validation - Loss: 0.6762 - Accuracy: 61.58%
+Epoch 10/40 - Loss: 0.6850 - Accuracy: 56.45%
+Validation - Loss: 0.6704 - Accuracy: 61.58%
+Epoch 11/40 - Loss: 0.6841 - Accuracy: 56.58%
+Validation - Loss: 0.6679 - Accuracy: 61.58%
+Epoch 12/40 - Loss: 0.6857 - Accuracy: 56.70%
+Validation - Loss: 0.6706 - Accuracy: 61.58%
+Epoch 13/40 - Loss: 0.6859 - Accuracy: 56.70%
+Validation - Loss: 0.6674 - Accuracy: 61.58%
+Epoch 14/40 - Loss: 0.6852 - Accuracy: 56.49%
+Validation - Loss: 0.6734 - Accuracy: 61.58%
+Epoch 15/40 - Loss: 0.6848 - Accuracy: 56.49%
+Validation - Loss: 0.6681 - Accuracy: 61.58%
+Epoch 16/40 - Loss: 0.6831 - Accuracy: 56.72%
+Validation - Loss: 0.6715 - Accuracy: 61.58%
+Epoch 17/40 - Loss: 0.6827 - Accuracy: 56.70%
+Validation - Loss: 0.6645 - Accuracy: 61.58%
+Epoch 18/40 - Loss: 0.6823 - Accuracy: 56.51%
+Validation - Loss: 0.6660 - Accuracy: 61.75%
+Epoch 19/40 - Loss: 0.6799 - Accuracy: 56.11%
+Validation - Loss: 0.6495 - Accuracy: 62.34%
+Epoch 20/40 - Loss: 0.6822 - Accuracy: 57.13%
+Validation - Loss: 0.6572 - Accuracy: 61.58%
+Epoch 21/40 - Loss: 0.6745 - Accuracy: 58.08%
+Validation - Loss: 0.6535 - Accuracy: 63.10%
+Epoch 22/40 - Loss: 0.6756 - Accuracy: 58.23%
+Validation - Loss: 0.6782 - Accuracy: 61.92%
+Epoch 23/40 - Loss: 0.6821 - Accuracy: 56.47%
+Validation - Loss: 0.6743 - Accuracy: 61.58%
+Epoch 24/40 - Loss: 0.6849 - Accuracy: 56.70%
+Validation - Loss: 0.6711 - Accuracy: 61.58%
+Epoch 25/40 - Loss: 0.6843 - Accuracy: 56.70%
+Validation - Loss: 0.6719 - Accuracy: 61.58%
+Epoch 26/40 - Loss: 0.6834 - Accuracy: 56.70%
+Validation - Loss: 0.6698 - Accuracy: 61.58%
+Epoch 27/40 - Loss: 0.6837 - Accuracy: 56.70%
+Validation - Loss: 0.6718 - Accuracy: 61.58%
+Epoch 28/40 - Loss: 0.6828 - Accuracy: 56.68%
+Validation - Loss: 0.6671 - Accuracy: 61.58%
+Epoch 29/40 - Loss: 0.6836 - Accuracy: 56.70%
+Validation - Loss: 0.6645 - Accuracy: 61.58%
+Epoch 30/40 - Loss: 0.6834 - Accuracy: 56.49%
+Validation - Loss: 0.6672 - Accuracy: 61.58%
+Epoch 31/40 - Loss: 0.6814 - Accuracy: 56.85%
+Validation - Loss: 0.6658 - Accuracy: 63.10%
+Epoch 32/40 - Loss: 0.6832 - Accuracy: 57.74%
+Validation - Loss: 0.6697 - Accuracy: 61.58%
+Epoch 33/40 - Loss: 0.6847 - Accuracy: 56.70%
+Validation - Loss: 0.6710 - Accuracy: 61.58%
+Epoch 34/40 - Loss: 0.6841 - Accuracy: 56.70%
+Validation - Loss: 0.6713 - Accuracy: 61.58%
+Epoch 35/40 - Loss: 0.6851 - Accuracy: 56.70%
+Validation - Loss: 0.6689 - Accuracy: 61.58%
+Epoch 36/40 - Loss: 0.6844 - Accuracy: 56.70%
+Validation - Loss: 0.6708 - Accuracy: 61.58%
+Epoch 37/40 - Loss: 0.6843 - Accuracy: 56.70%
+Validation - Loss: 0.6698 - Accuracy: 61.58%
+Epoch 38/40 - Loss: 0.6856 - Accuracy: 56.70%
+Validation - Loss: 0.6694 - Accuracy: 61.58%
+Epoch 39/40 - Loss: 0.6841 - Accuracy: 56.70%
+Validation - Loss: 0.6691 - Accuracy: 61.58%
+Epoch 40/40 - Loss: 0.6846 - Accuracy: 56.70%
+Validation - Loss: 0.6719 - Accuracy: 61.58%
+trained model
+metrics plotted
+
+Metrics saved to: vgg19_preprocessed/metrics_vgg19_preprocessed.txt
+Test Accuracy: 50.00%
+F1 Score: 0.0000
+Recall: 0.0000
+Precision: 0.0000
+ROC AUC: 0.5000
+
+Confidence statistics saved to: vgg19_preprocessed/confidence_statistics_vgg19_preprocessed.txt
+model evaluated
+Model saved successfully!
+model saved
+it took:  1407.654441356659
+training time saved
+Finished training process.

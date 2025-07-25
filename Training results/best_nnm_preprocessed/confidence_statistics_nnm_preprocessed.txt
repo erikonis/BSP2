@@ -1,0 +1,5 @@
+Model      Dataset      Label    Samples  Average Confidence Max Confidence Min Confidence
+------------------------------------------------------------------------------------------
+nnm        preprocessed Class 0  74       0.747              0.994          0.522         
+nnm        preprocessed Class 1  52       0.629              0.836          0.502         
+

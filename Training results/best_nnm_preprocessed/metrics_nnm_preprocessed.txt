@@ -1,0 +1,8 @@
+Model: nnm
+Dataset: preprocessed
+------------------------------
+F1 Score: 0.5843
+Recall: 0.5200
+Precision: 0.6667
+Accuracy: 63.00%
+ROC AUC: 0.7364
