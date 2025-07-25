@@ -1,0 +1,155 @@
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+Command: this is not a command id
+Wrong value type for this field.
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+Command: 1
+Creating new character...
+Enter name: David
+Enter role (DAMAGE, TANK, HEALER): DAMAGE
+Add to party (0 or 1): 0
+Added David (DAMAGE) to party 0.
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+Command: 1
+Creating new character...
+Enter name: ajwsifkmaskfioamfsmaifmkoafmokawfoawmf
+Enter role (DAMAGE, TANK, HEALER): TANK
+Invalid character name (name is too long - max 20 characters): ajwsifkmaskfioamfsmaifmkoafmokawfoawmf
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+Command: 1
+Creating new character...
+Enter name: 
+Enter role (DAMAGE, TANK, HEALER): DAMAGE
+****Invalid character name (name can't be empty): ****
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+Command: 1
+Creating new character...
+Enter name: Alice
+Enter role (DAMAGE, TANK, HEALER): TANK
+Add to party (0 or 1): 0
+Added Alice (TANK) to party 0.
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+Command: 1
+Creating new character...
+Enter name: Bella
+Enter role (DAMAGE, TANK, HEALER): mage
+Unknown character role.
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+Command: 1
+Creating new character...
+Enter name: Bella
+Enter role (DAMAGE, TANK, HEALER): TANK
+Add to party (0 or 1): 0
+Can't add Bella (TANK) to party: the party has reached the limit for the role TANK
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+*Command: 2*
+Show party (0 or 1): 3
+***Unexpected index: Index 3 out of bounds for length 2***
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+Command: 2
+Show party (0 or 1): 0
+
+Party (2 members):
+- David (DAMAGE)
+- Alice (TANK)
+
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+Command: 1
+Creating new character...
+Enter name: David
+Enter role (DAMAGE, TANK, HEALER): DAMAGE
+Add to party (0 or 1): 0
+Can't add David (DAMAGE) to party, they're already in it.
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+Command: 1
+Creating new character...
+Enter name: Bella
+Enter role (DAMAGE, TANK, HEALER): HEALER
+Add to party (0 or 1): 0
+Added Bella (HEALER) to party 0.
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+Command: 1
+Creating new character...
+Enter name: Catherine
+Enter role (DAMAGE, TANK, HEALER): DAMAGE
+Add to party (0 or 1): 0
+Added Catherine (DAMAGE) to party 0.
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+Command: 1
+Creating new character...
+Enter name: Bob
+Enter role (DAMAGE, TANK, HEALER): DAMAGE
+Add to party (0 or 1): 0
+The party is full: no other characters can be added to it.
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+Command: 2
+Show party (0 or 1): 0
+
+Party (4 members):
+- David (DAMAGE)
+- Alice (TANK)
+- Bella (HEALER)
+- Catherine (DAMAGE)
+
+Commands:
+0 - Exit
+1 - Create new character
+2 - Show party
+
+Command: 0
+Exiting!

@@ -1,0 +1,5 @@
+The UML folder contains the Exercise2.1
+The implementation folder contains the implementations required by Exercise2.2 and 2.3
+
+2) It should be the Airport class managing the flights, and assigning the passagers and pilots to the flights;
+Then the class flight should have the corresponding attributes to store the passagers and pilots.

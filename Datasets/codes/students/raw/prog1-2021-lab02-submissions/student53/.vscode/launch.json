@@ -1,0 +1,113 @@
+
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Time2",
+            "request": "launch",
+            "mainClass": "lu.uni.programming1.lab2.exercise6.Time2",
+            "projectName": "prog1-2021-lab02-soares-daniel_954d9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Time",
+            "request": "launch",
+            "mainClass": "lu.uni.programming1.lab2.exercise6.Time",
+            "projectName": "prog1-2021-lab02-soares-daniel_954d9cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch XORTruthTable",
+            "request": "launch",
+            "mainClass": "lu.uni.programming1.lab2.exercise1.XORTruthTable",
+            "projectName": "prog1-2021-lab02-soares-daniel_4773257f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ByteOverflow",
+            "request": "launch",
+            "mainClass": "lu.uni.programming1.lab2.exercise2.ByteOverflow",
+            "projectName": "prog1-2021-lab02-soares-daniel_4773257f"
+        },
+        {
+            "type": "java",
+            "name": "Launch DecimalPrecision",
+            "request": "launch",
+            "mainClass": "lu.uni.programming1.lab2.exercise2.DecimalPrecision",
+            "projectName": "prog1-2021-lab02-soares-daniel_4773257f"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntegerOverflow",
+            "request": "launch",
+            "mainClass": "lu.uni.programming1.lab2.exercise2.IntegerOverflow",
+            "projectName": "prog1-2021-lab02-soares-daniel_4773257f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Speedlimit",
+            "request": "launch",
+            "mainClass": "lu.uni.programming1.lab2.exercise3.Speedlimit",
+            "projectName": "prog1-2021-lab02-soares-daniel_4773257f"
+        },
+        {
+            "type": "java",
+            "name": "Launch DivisibleByThree",
+            "request": "launch",
+            "mainClass": "lu.uni.programming1.lab2.exercise4.DivisibleByThree",
+            "projectName": "prog1-2021-lab02-soares-daniel_4773257f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortingNested",
+            "request": "launch",
+            "mainClass": "lu.uni.programming1.lab2.exercise5.SortingNested",
+            "projectName": "prog1-2021-lab02-soares-daniel_4773257f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortingNotNested",
+            "request": "launch",
+            "mainClass": "lu.uni.programming1.lab2.exercise5.SortingNotNested",
+            "projectName": "prog1-2021-lab02-soares-daniel_4773257f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Time",
+            "request": "launch",
+            "mainClass": "lu.uni.programming1.lab2.exercise6.Time",
+            "projectName": "prog1-2021-lab02-soares-daniel_4773257f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rectangle",
+            "request": "launch",
+            "mainClass": "lu.uni.programming1.lab2.exercise7.Rectangle",
+            "projectName": "prog1-2021-lab02-soares-daniel_4773257f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Crowdfunding",
+            "request": "launch",
+            "mainClass": "lu.uni.programming1.lab2.exercise8.Crowdfunding",
+            "projectName": "prog1-2021-lab02-soares-daniel_4773257f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ILoveProgramming",
+            "request": "launch",
+            "mainClass": "lu.uni.programming1.lab2.exercise9.ILoveProgramming",
+            "projectName": "prog1-2021-lab02-soares-daniel_4773257f"
+        }
+    ]
+}

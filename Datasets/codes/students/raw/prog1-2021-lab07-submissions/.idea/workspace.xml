@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5bc01c94-ac49-43ce-9830-ce2cc4ef87c0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/student1/src/lu/uni/programming1/lab7/exercise1/Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student1/src/lu/uni/programming1/lab7/exercise1/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student1/src/lu/uni/programming1/lab7/exercise1/Launch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student1/src/lu/uni/programming1/lab7/exercise1/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student1/src/lu/uni/programming1/lab7/exercise4/LecturerFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student1/src/lu/uni/programming1/lab7/exercise4/LecturerSenior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student1/src/lu/uni/programming1/lab7/exercise4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student1/src/lu/uni/programming1/lab7/exercise4/Programmer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student1/src/lu/uni/programming1/lab7/exercise4/StudentFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student1/src/lu/uni/programming1/lab7/exercise4/TAFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise1/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise1/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise1/Go.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise1/LauncherEx1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise1/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise1/back.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise1/forwards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise1/high.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise1/left.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise1/low.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise1/pickRock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise1/right.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise1/takePhoto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise2/LauncherEx2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise2/filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student11/src/lu/uni/programming1/lab7/exercise2/person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student25/Lab 7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student3/src/lu/uni/programming1/lab7/exercise1/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student3/src/lu/uni/programming1/lab7/exercise1/Control.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student3/src/lu/uni/programming1/lab7/exercise1/Prototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student3/src/lu/uni/programming1/lab7/exercise1/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student3/src/lu/uni/programming1/lab7/exercise4/AgeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student3/src/lu/uni/programming1/lab7/exercise4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student3/src/lu/uni/programming1/lab7/exercise4/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student3/src/lu/uni/programming1/lab7/exercise4/PersonFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student30/src/lu/uni/programming1/lab7/Exercise1/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student30/src/lu/uni/programming1/lab7/Exercise1/action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student30/src/lu/uni/programming1/lab7/Exercise1/controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student30/src/lu/uni/programming1/lab7/Exercise1/move.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student30/src/lu/uni/programming1/lab7/Exercise1/pickRock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student30/src/lu/uni/programming1/lab7/Exercise1/takePic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student30/src/lu/uni/programming1/lab7/Exercise4/launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student30/src/lu/uni/programming1/lab7/Exercise4/listOfPeople.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student30/src/lu/uni/programming1/lab7/Exercise4/person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student36/src/lu/uni/programming1/lab7/Exercise1/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student36/src/lu/uni/programming1/lab7/Exercise1/action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student36/src/lu/uni/programming1/lab7/Exercise1/controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student36/src/lu/uni/programming1/lab7/Exercise1/move.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student36/src/lu/uni/programming1/lab7/Exercise1/pickRock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student36/src/lu/uni/programming1/lab7/Exercise1/takePic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student36/src/lu/uni/programming1/lab7/Exercise4/launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student36/src/lu/uni/programming1/lab7/Exercise4/listOfPeople.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student36/src/lu/uni/programming1/lab7/Exercise4/person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise1/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise1/ActionMove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise1/ActionPicture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise1/ActionRock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise1/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise1/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise1/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise4/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise4/JuniorFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise4/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise4/LecturerFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise4/MiddleFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise4/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise4/SeniorFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise4/StudentFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student38/src/lu/uni/programming1/lab7/exercise4/TAFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student39/src/lu/uni/programming1/lab7/exercise1/Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student39/src/lu/uni/programming1/lab7/exercise1/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student39/src/lu/uni/programming1/lab7/exercise1/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student39/src/lu/uni/programming1/lab7/exercise1/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student39/src/lu/uni/programming1/lab7/exercise4/Choose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student39/src/lu/uni/programming1/lab7/exercise4/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student39/src/lu/uni/programming1/lab7/exercise4/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student39/src/lu/uni/programming1/lab7/exercise4/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student41/src/lu/uni/programming1/lab7/exercise1/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student41/src/lu/uni/programming1/lab7/exercise1/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student41/src/lu/uni/programming1/lab7/exercise1/launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student41/src/lu/uni/programming1/lab7/exercise1/move.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student41/src/lu/uni/programming1/lab7/exercise1/pickrock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student41/src/lu/uni/programming1/lab7/exercise1/takephoto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student41/src/lu/uni/programming1/lab7/exercise4/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student41/src/lu/uni/programming1/lab7/exercise4/PersonsInSchool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student41/src/lu/uni/programming1/lab7/exercise4/filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student41/src/lu/uni/programming1/lab7/exercise4/launch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise1/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise1/Back5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise1/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise1/Forward1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise1/Left6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise1/Photo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise1/Pick3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise1/Right2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise1/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise2/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise2/OverdraftAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise2/TestBankAccounts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4/Junior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4/Lecturer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4/Middle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4/Senior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4/TA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4helpexample/DivisibleByFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4helpexample/EvenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4helpexample/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4helpexample/GreaterFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4helpexample/IntegerSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4helpexample/IntervalFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4helpexample/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4helpexample/LessFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4helpexample/NegativeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4helpexample/OddFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student42/src/lu/uni/programming1/lab7/exercise4helpexample/PositiveFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student43/src/lu/uni/programming1/lab7/exercise1/CommandList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student43/src/lu/uni/programming1/lab7/exercise1/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student43/src/lu/uni/programming1/lab7/exercise1/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student43/src/lu/uni/programming1/lab7/exercise1/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student43/src/lu/uni/programming1/lab7/exercise4/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student43/src/lu/uni/programming1/lab7/exercise4/Individual.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student43/src/lu/uni/programming1/lab7/exercise4/JuniorFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student43/src/lu/uni/programming1/lab7/exercise4/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student43/src/lu/uni/programming1/lab7/exercise4/LecturerFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student43/src/lu/uni/programming1/lab7/exercise4/MiddleFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student43/src/lu/uni/programming1/lab7/exercise4/SeniorFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student43/src/lu/uni/programming1/lab7/exercise4/StudentFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student43/src/lu/uni/programming1/lab7/exercise4/TAFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise1/Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise1/HighResPictures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise1/LowResPictures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise1/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise1/Moves.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise1/PickRock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise1/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise4/Filters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise4/Junior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise4/Lecturer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise4/Middle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise4/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise4/PersonList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise4/Senior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student44/src/lu/uni/programming1/lab7/exercise4/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student46/src/lu/uni/programming1/lab7/exercise1/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student46/src/lu/uni/programming1/lab7/exercise1/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student46/src/lu/uni/programming1/lab7/exercise1/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student46/src/lu/uni/programming1/lab7/exercise1/Maze.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student46/src/lu/uni/programming1/lab7/exercise1/Move.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student46/src/lu/uni/programming1/lab7/exercise1/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student46/src/lu/uni/programming1/lab7/exercise4/AgeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student46/src/lu/uni/programming1/lab7/exercise4/BooleanFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student46/src/lu/uni/programming1/lab7/exercise4/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student46/src/lu/uni/programming1/lab7/exercise4/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student46/src/lu/uni/programming1/lab7/exercise4/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise1/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise1/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise1/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise1/MoveBackwards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise1/MoveForwards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise1/MoveLeft.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise1/MoveRight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise1/PickRock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise1/TakeHighResolutionPic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise1/TakeLowResolutionPic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise4/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise4/JuniorFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise4/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise4/LecturerFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise4/MiddleFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise4/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise4/SeniorFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise4/StudentFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student48/src/lu/uni/programming1/lab7/Exercise4/TAFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student5/src/lu/uni/programming1/lab7/exercise1/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student5/src/lu/uni/programming1/lab7/exercise1/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student5/src/lu/uni/programming1/lab7/exercise1/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student5/src/lu/uni/programming1/lab7/exercise1/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student5/src/lu/uni/programming1/lab7/exercise4/AgeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student5/src/lu/uni/programming1/lab7/exercise4/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student5/src/lu/uni/programming1/lab7/exercise4/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student5/src/lu/uni/programming1/lab7/exercise4/PersonFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student7/src/lu/uni/programming1/lab7/Exercise1/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student7/src/lu/uni/programming1/lab7/Exercise1/action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student7/src/lu/uni/programming1/lab7/Exercise1/controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student7/src/lu/uni/programming1/lab7/Exercise1/move.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student7/src/lu/uni/programming1/lab7/Exercise1/pickRock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student7/src/lu/uni/programming1/lab7/Exercise1/takePic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student7/src/lu/uni/programming1/lab7/Exercise4/launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student7/src/lu/uni/programming1/lab7/Exercise4/listOfPeople.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student7/src/lu/uni/programming1/lab7/Exercise4/person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student9/src/lu/uni/programming1/lab7/exercise1/Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student9/src/lu/uni/programming1/lab7/exercise1/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student9/src/lu/uni/programming1/lab7/exercise1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student9/src/lu/uni/programming1/lab7/exercise1/Prototype.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/student1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2tU5g0LayzMTnEke18yDjq7LOLm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.ee.executor": "Run",
+    "Python.pddd.executor": "Run",
+    "Python.rem.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.ee">
+    <configuration name="ee" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="prog1-2021-lab07-submissions" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ee.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pddd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="prog1-2021-lab07-submissions" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pddd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="prog1-2021-lab07-submissions" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ee" />
+        <item itemvalue="Python.rem" />
+        <item itemvalue="Python.pddd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bc01c94-ac49-43ce-9830-ce2cc4ef87c0" name="Changes" comment="" />
+      <created>1740393919582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740393919582</updated>
+    </task>
+    <servers />
+  </component>
+</project>

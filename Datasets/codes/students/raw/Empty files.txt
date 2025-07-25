@@ -1,0 +1,4 @@
+Files found: 4303
+Warning! a file has a height of 0 or less. Path: codes/std/workspace/prog1-2021-lab07-submissions/student13/Exercise1/NewAction.java
+Warning! a file has a height of 0 or less. Path: codes/std/workspace/prog1-2021-lab08-submissions/student36/ex2/costs.java
+Warning! a file has a height of 0 or less. Path: codes/std/workspace/prog1-2021-lab10-submissions/student16/exercise3/Game.java
