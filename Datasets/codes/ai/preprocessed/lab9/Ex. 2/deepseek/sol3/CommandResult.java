@@ -1,0 +1,1 @@
+public record CommandResult(boolean success, String message, Character newActor, Character newTarget) {}

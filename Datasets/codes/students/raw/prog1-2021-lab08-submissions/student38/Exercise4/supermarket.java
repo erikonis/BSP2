@@ -1,0 +1,5 @@
+package lu.uni.programming1.lab8.Exercise4;
+
+public class supermarket {
+
+}

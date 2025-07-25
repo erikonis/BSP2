@@ -1,0 +1,10 @@
+package lu.uni.programming1.lab10.exercise3;
+
+public class Tool extends Software{
+
+    public Tool(String name, int size) {
+        super(name, size);
+        //TODO Auto-generated constructor stub
+    }
+    
+}

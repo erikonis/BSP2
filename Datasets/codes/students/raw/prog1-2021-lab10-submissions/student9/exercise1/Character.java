@@ -1,0 +1,63 @@
+package lu.uni.programming1.lab10.exercise1;
+
+import javax.naming.SizeLimitExceededException;
+
+public class Character {
+    private String name;
+    private CharacterRole role;
+
+    // You may edit this constructor if you so wish
+    public Character(String name, CharacterRole role) throws SizeLimitExceededException {
+        if(!name.isEmpty() && name.length() <20)
+        {
+            this.name = name;
+            this.role = role;
+        }
+        else if(name.isEmpty())
+        {
+            throw new SizeLimitExceededException("Invalid character name (name can't be empty):");
+        }
+        else if(name.length() >20)
+        {
+            throw new SizeLimitExceededException("Invalid character name (name is too long - max 20 characters): " + name);
+        }
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public CharacterRole getRole() {
+        return role;
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((name == null) ? 0 : name.hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Character other = (Character) obj;
+        if (name == null) {
+            if (other.name != null)
+                return false;
+        } else if (!name.equals(other.name))
+            return false;
+        return true;
+    }
+
+    @Override
+    public String toString() {
+        return name + " (" + role + ")";
+    }
+}

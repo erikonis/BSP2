@@ -1,0 +1,24 @@
+public class Airport {
+    private String city, country, iataCode;
+
+    Airport(String city, String country, String iataCode) {
+        this.city = city;
+        this.country = country;
+        this.iataCode = iataCode;}
+        //sets up the various parts of the Airport class and getters for them
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public String getIataCode() {
+        return iataCode;
+    }
+
+
+    
+}

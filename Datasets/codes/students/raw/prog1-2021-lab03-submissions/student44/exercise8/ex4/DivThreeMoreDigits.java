@@ -1,0 +1,30 @@
+package lu.uni.programming1.lab3.exercise8.ex4;
+import java.util.*;
+public class DivThreeMoreDigits {
+    public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		double num=0.0;
+        int rem=0;
+        int sum=0;
+		System.out.println("enter your number");
+
+		num = scanner.nextDouble();
+		while(num>0){
+            rem = (int)num % 10;
+            sum = sum + rem;
+            num = num / 10;
+		}
+		System.out.println("the sum of the digits is "+sum);
+		sum =sum%3;
+		sum=(sum==0) ? 0:1;
+		if (sum==0){
+			System.out.println("your number is divisble by 3");
+		}
+		else {
+			System.out.println("you number is not divisble by 3");
+		}
+
+
+		scanner.close();
+	}
+}

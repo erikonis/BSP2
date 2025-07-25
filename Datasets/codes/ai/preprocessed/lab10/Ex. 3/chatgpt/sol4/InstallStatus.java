@@ -1,0 +1,3 @@
+public enum InstallStatus {
+    SUCCESS, INSUFFICIENTSPACE, ALREADYINSTALLED
+}

@@ -1,0 +1,40 @@
+package lu.uni.programming1.lab4.exercise3;
+
+import java.util.Scanner;
+
+public class PalindromeCaseInsensitive {
+    public static boolean palindrome(String usrInput) {
+
+        int strLength = usrInput.length() - 1; // -1 because charAt start count at 0
+
+        for (int i = 0; i < strLength; i++) {
+            if (Character.toLowerCase(usrInput.charAt(i)) != Character.toLowerCase(usrInput.charAt(strLength))) {
+                return false;
+            }
+            strLength--;
+        }
+        return true;
+
+    }
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        String word = "";
+        System.out.print("Enter a word: (enter 0 to stop) ");
+        do {
+            word = scanner.nextLine();
+            if (word.equals("0")) {
+                break;
+            }
+            if (palindrome(word)) {
+                System.out.println("This word is a palindrome");
+            } else {
+                System.out.println("This word is not a palindrome");
+            }
+        } while (!word.equals("0"));
+        
+        scanner.close();
+    }
+}

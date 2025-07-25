@@ -1,0 +1,1 @@
+public record ManeuverCommand(String unitId, ObstacleType obstacleType) implements EvaCommand {}

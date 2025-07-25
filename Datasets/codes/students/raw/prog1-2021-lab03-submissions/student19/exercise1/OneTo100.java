@@ -1,0 +1,13 @@
+package lu.uni.programming1.lab3.exercise1;
+
+public class OneTo100 
+{
+    public static void main(String[] args) 
+    {
+        // Integer counting from 1 to 100 via for-loop and console output
+        for (int i = 1 ; i <= 100 ; i++)
+        {
+            System.out.println(i);
+        }
+    }   
+}

@@ -1,0 +1,1 @@
+public record ShutdownCommand(String unitId) implements EvaCommand {}

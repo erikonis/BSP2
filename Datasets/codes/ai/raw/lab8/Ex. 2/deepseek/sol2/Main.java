@@ -1,0 +1,20 @@
+public class Main {
+    public static void main(String[] args) {
+        Order o1 = new Order("Coke", 0.80, 100);
+        Order o2 = new Order("KitKat", 0.70, 250);
+        Order o3 = new Order("Orange", 0.72, 350);
+        Order o4 = new Order("Snickers", 1.60, 150);
+        Order o5 = new Order("Snickers", 1.60, 150); // Duplicate of o4
+        Order o6 = new Order("Coke", 0.80, 100);     // Duplicate of o1
+
+        OrderList w2 = new OrderList("TheOne");
+        w2.addItem(o1);
+        w2.addItem(o2);
+        w2.addItem(o3);
+        w2.addItem(o4);
+        w2.addItem(o5);
+        w2.addItem(o6);
+
+        w2.printOrder();
+    }
+}

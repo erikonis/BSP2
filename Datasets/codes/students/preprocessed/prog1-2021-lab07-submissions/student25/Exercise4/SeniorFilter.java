@@ -1,0 +1,15 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class SeniorFilter extends Filter{
+    @Override
+    public Set<Person> doFilter(Set<Person> persons) {
+        Set<Person> result = new HashSet<>();
+        for (Person person : persons) {
+            if (55 <= person.getAge()) {
+                result.add(person);
+            }
+        } 
+        return result;
+    }
+}

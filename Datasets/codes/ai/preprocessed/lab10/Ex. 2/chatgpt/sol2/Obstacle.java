@@ -1,0 +1,3 @@
+interface Obstacle {
+    int getMentalToll();
+}

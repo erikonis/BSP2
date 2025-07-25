@@ -1,0 +1,1 @@
+public record ActivateUnitCommand(String unitId) implements EvaCommand {}

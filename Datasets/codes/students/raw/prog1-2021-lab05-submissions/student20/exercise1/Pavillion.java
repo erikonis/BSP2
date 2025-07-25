@@ -1,0 +1,21 @@
+package exercise1;
+
+public class Pavillion {
+    
+    private String name;
+    private double price;
+
+    Pavillion(String name, double price){
+        this.name = name;
+        this.price = price;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+}

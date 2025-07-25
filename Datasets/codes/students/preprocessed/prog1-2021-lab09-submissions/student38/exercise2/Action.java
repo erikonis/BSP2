@@ -1,0 +1,6 @@
+/**
+ * InnerAction
+ */
+public interface Action {
+    
+}
