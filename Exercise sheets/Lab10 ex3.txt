@@ -1,0 +1,207 @@
+Exercise 3 – Steam #Inheritance #ExceptionHandling
+The game store and client Steam allows Users to own Software, which they can install to their Disk.
+Steam supports two types of Software, namely Games and Tools.
+– A Game has a license, which is a unique ID. A Game can only be installed to a Disk if the User of that Disk owns the license
+for the Game. Throw a corresponding exception which has variables for the Game and User.
+– A Tool can only be installed to a Disk which is not running the MacOS operating system. Throw a corresponding exception
+which has variables for the Tool and Disk.
+Thus, your task is to create two new classes, Game and Tool, which both inherit from the provided class Software. Modify their
+behavior for the install() method according to the above requirements. Do not modify any of the provided files (Software, Disk, User,
+InstallStatus, OperatingSystem).
+Test your implementation to make sure it works properly, though you don’t need to provide a sample launcher for this exercise. (And
+check out the hint on the next page!)
+Exceptions and inheritance:
+In practice, whenever you want to define a custom exception class, you always inherit from the base class Exception provided
+by the standard Java library.
+However, something you may not have known is that inheritance also works at the level of method signatures! This means that
+if you have a method whose signature is "void myMethod() throws Exception", the method’s body cannot only throw instances
+of the base class Exception, but also... ;)
+
+Disk:
+import java.util.ArrayList;
+import java.util.List;
+
+public class Disk {
+    private int maximumSize;
+    private final User user;
+    private List<Software> installedSoftware;
+    private OperatingSystem operatingSystem;
+
+    public Disk(int maximumSize, User user, OperatingSystem operatingSystem) {
+        this.maximumSize = Math.max(1, Math.min(1024, maximumSize));
+        this.user = user;
+        installedSoftware = new ArrayList<>();
+        this.operatingSystem = operatingSystem;
+    }
+
+    public int getMaximumSize() {
+        return maximumSize;
+    }
+
+    public int getAvailableSize() {
+        int installedSize = 0;
+        for (Software software : installedSoftware) {
+            installedSize += software.getSize();
+        }
+        return maximumSize - installedSize;
+    }
+
+    public OperatingSystem getOperatingSystem() {
+        return operatingSystem;
+    }
+
+    private boolean isInstalled(Software software) {
+        return installedSoftware.contains(software);
+    }
+
+    public InstallStatus install(Software software) {
+        if (!isInstalled(software)) {
+            if (getAvailableSize() - software.getSize() >= 0) {
+                installedSoftware.add(software);
+                return InstallStatus.SUCCESS;
+            } else {
+                return InstallStatus.INSUFFICIENTSPACE;
+            }
+        }
+        return InstallStatus.ALREADYINSTALLED;
+
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    @Override
+    public String toString() {
+        return "Disk (" + getAvailableSize() + "GB available / " + maximumSize + "GB capacity) - " + user;
+    }
+}
+InstallStatus:
+public enum InstallStatus {
+    SUCCESS, INSUFFICIENTSPACE, ALREADYINSTALLED
+}
+
+Operating System:
+public enum OperatingSystem {
+    WINDOWS, MACOS, LINUX
+}
+
+Software:
+public abstract class Software {
+    private String name;
+    private int size;
+
+    public Software(String name, int size) {
+        this.name = name;
+        this.size = size;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void install(Disk disk) throws Exception {
+        switch (disk.install(this)) {
+        case ALREADYINSTALLED:
+            System.out.println("Can't install " + name + " to " + disk + ": already installed.");
+            break;
+        case INSUFFICIENTSPACE:
+            System.out.println("Can't install " + this + " to " + disk + ": insufficient space.");
+            break;
+        case SUCCESS:
+            System.out.println("Installed " + this + " to " + disk);
+        }
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((name == null) ? 0 : name.hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Software other = (Software) obj;
+        if (name == null) {
+            if (other.name != null)
+                return false;
+        } else if (!name.equals(other.name))
+            return false;
+        return true;
+    }
+
+    @Override
+    public String toString() {
+        return name + " (" + size + "GB)";
+    }
+}
+
+User:
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
+
+public class User {
+    private String name;
+    private List<UUID> ownedGameLicenses;
+
+    public User(String name) {
+        this.name = name;
+        ownedGameLicenses = new ArrayList<>();
+    }
+
+    public boolean ownsGameLicense(UUID license) {
+        return ownedGameLicenses.contains(license);
+    }
+
+    public void addGameLicense(UUID license) {
+        if (!ownsGameLicense(license)) {
+            ownedGameLicenses.add(license);
+            System.out.println(this + " now owns the license " + license);
+        }
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((name == null) ? 0 : name.hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        User other = (User) obj;
+        if (name == null) {
+            if (other.name != null)
+                return false;
+        } else if (!name.equals(other.name))
+            return false;
+        return true;
+    }
+
+}
+

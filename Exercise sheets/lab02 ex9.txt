@@ -1,0 +1,14 @@
+Exercise 9 – Style matters
+In the repository you will find the ILoveProgramming.java, which is supposed to print 20 times "I love programming!". But for some
+reason it only prints it once. Can you spot the error? Try to fix it.
+
+public class ILoveProgramming {
+
+	public static void main(String[] args) {
+		int numberOfiLoveProgrammingPrints = 20;
+
+		for (int iLoveProgrammingPrintCount = 0; iLoveProgrammingPrintCount <= numberOfiLoveProgrammingPrints; iLoveProgrammingPrintCount = iLoveProgrammingPrintCount+1);{
+			System.out.println("I love programming!");
+		}
+	}
+}

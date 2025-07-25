@@ -1,0 +1,27 @@
+Lab8 Ex.2
+
+Your uncle has been running a big store for 15 years. He receives the requests from the small markets, prepares the order list and sends
+it to the sales manager for delivery. However, due to age, he has begun to mix up the orders. Sometimes he enters the same item
+repeatedly, at any time, as illustrated in the sample launcher below. Help your uncle with a software detecting and avoiding duplicate
+items.
+Every order item is composed of a product name, a unit price, and an amount. An order list in turn contains the name of the
+client store, together with all items that this client ordered. To detect and prevent duplicates, use a HashSet, together with proper
+implementations of equals and hashCode(). An order item is considered a duplicate if all its properties match, i.e., the product
+name, unit price, and amount are the same. Please note that no particular sorting order is required, i.e., the items can appear in an
+arbitrary order when printing the list of items.
+Design and implement the corresponding classes, and write a main program to test your implementation. The output of your program
+should follow the sample from Figure 2 below:
+Sample Launcher
+Order o1 = new Order("Coke", 0.80, 100); Order 02 = new Order("KitKat", 0.70, 250); Order 03 = new Order("Orange]", 0.72, 350); Order 04 = new Order("Snickers", 1.60, 150); Order 05 = new Order("Snickers", 1.60, 150); Order 06 = new Order("Coke", 0.80, 100);
+OrderList w2 = new OrderList("TheOne");
+w2.addItem(01);
+w2.addItem(02);
+w2.addItem(03);
+w2.addItem(04);
+w2.addItem(05);
+w2.addItem(06);
+w2.order();
+Sample Output
+Order List for TheOne. You ordered 4 different products. Total cost is: 747.0 EURO
+1. Order: 350 Orange] x 0.72 EURO = 252.0 EURO
+2. Order: 250 KitKat x 0.7 EURO = 175.0 EURO 3. Order 150 Snickers x 1.6 EURO = 240.0 EURO 4. Order: 100 Coke x 0.8 EURO 80.0 EURO

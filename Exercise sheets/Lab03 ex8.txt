@@ -1,0 +1,31 @@
+Solve this in java:
+
+Exercise 8 – Refactoring: Extracting variables
+As seen in the lecture, there are several reasons why applying a clean coding style is helpful. One way to do that is extracting variables,
+which is a useful refactoring technique wrt. code maintainability. In VS Code, you can extract a variable from an expression by selecting
+it, right-clicking and selecting Refactor... and then Extract to local variable . Finally, provide a name for the new variable. Try this by
+extracting variables for each of the 3 expressions (between the operators) in the if-statement of the code snippet below.
+Write a new program VariablesExtracted.java that is based on the existing class VariableExtraction.java from the repository, that
+contains the code snippet. Apply the refactoring technique described above to the code in your new program.
+1 String platform = " macOS Sierra ";
+2 String browser = " Safari ";
+3 double zoomLevel = 1.5;
+4 if ( platform . toUpperCase () . indexOf ("MAC") > -1 && browser . equals (" Safari ") && zoomLevel >=
+1.5) {
+5 // do something ...
+6 }
+
+
+Here's the class:
+public class VariableExtraction {
+
+	public static void main(String[] args) {
+		String platform = "macOS Sierra";
+		String browser = "Safari";
+		double zoomLevel = 1.5;
+
+		if (platform.toUpperCase().indexOf("MAC") > -1 && browser.equals("Safari") && zoomLevel >= 1.5) {
+			// do something ...
+		}
+	}
+}

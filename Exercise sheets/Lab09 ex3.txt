@@ -1,0 +1,69 @@
+Exercise 3 – Green apples and red apples
+Final Fantasy games have this concept of the player evolving in their role: for example, if they were initially a Mage, they can become
+stronger through their adventures and turn into a specialized Red Mage.
+Naturally, the previous developers opted for inheritance, where Mage is the base class and class Red Mage inherits from it. The
+problem is that they want the game to recognize that an instance of Mage and an instance of Red Mage should be considered equal
+when comparing them with the equals method that they have overriden in the base class Mage.
+However, when they compare two such instances, the equals method always returns false, even though the comparison should only
+check if the field name present in the base class Mage is the same for both objects. Additional fields introduced in the subclass Red
+Mage are ignored for the equals comparison and are not deemed important.
+Can you find the problem in the equals implementation of class Mage and possibly solve it? Explain!
+To reiterate, your solution should lead to an instance of Mage and an instance of Red Mage being considered equal when they have
+the same value for the name field.
+
+
+public class Launcher {
+    public static void main(String[] args) {
+        Mage person = new Mage("John");
+        Mage person2 = new RedMage("John");
+        System.out.println(person2.equals(person));
+        System.out.println(person.equals(person2));
+    }
+}
+
+
+public class RedMage extends Mage {
+    public RedMage(String name) {
+        super(name);
+    }
+}
+
+
+public class Mage {
+    private String name;
+
+    Mage(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((name == null) ? 0 : name.hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+
+        Mage other = (Mage) obj;
+        if (name == null) {
+            if (other.name != null)
+                return false;
+        } else if (!name.equals(other.name))
+            return false;
+        return true;
+    }
+
+}

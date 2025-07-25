@@ -1,0 +1,79 @@
+Exercise 1 – Party Composition #ExceptionHandling #CheckedException
+In Final Fantasy, your Character has a specific role: Damage, Tank or Healer.
+These roles become important when grouping multiple Characters into a so-called Party, which has certain limits:
+1
+◦ A Party can contain up to 4 Characters.
+2
+◦ The allowed Party composition is as follows:
+– 1 Character of role Healer
+– 1 Character of role Tank
+– 2 Characters of role Damage
+Update the existing Party class by implementing its add method while respecting the previously indicated requirements.
+Afterwards, implement a sample main method in the Launcher class which reads input from the console. Importantly, include proper
+exception handling for the various aspects of your program.
+1
+◦
+Initialize two empty Party instances.
+2
+◦ The program will continuously ask for input from the user:
+– ’0’ - Exit the program
+– ’1’ - Create a new character
+◦ Ask for the Character’s name
+• It can’t be empty.
+• Its length can’t exceed 20 characters.
+◦ Ask for the Character’s role
+• ’DAMAGE’
+• ’TANK’
+• ’HEALER’
+Note: CharacterRole is an Enum structure, so you will need to convert the user’s String input of the role name
+somehow...
+◦ Ask for the Party to which the Character should be added (’0’ or ’1’)
+– ’2’ - Choose a Party to view. (print the characters contained in the Party to console)
+◦ Ask for the Party to show: ’0’ or ’1’
+Your exception handling should cover every aspect of your program, i.e. throw an exception for each of the following aspects AND
+catch them accordingly:
+– Invalid Character name (empty / too long)
+– Input type mismatch, e.g. you expect an int as input but the user enters a String
+– Invalid role name (’DAMAGE’ or ’HEALER’ or ’TANK’)
+– Invalid index for the Party (0 or 1)
+– Trying to add a Character to an already full Party
+– Trying to add a Character with a Role which is invalid for the given Party (e.g. if the Party already contains a Healer, do not
+allow the inclusion of a second Healer) - remember the Party composition rules indicated above
+– Trying to add a Character to a Party when it is already in that Party
+(Tip) ’throws’ keyword: When indicating a method’s signature, e.g. its return type, parameters and so on, you can also
+indicate if the method can throw specific Exception(s) by using the keyword ’throws’.
+For example: ’public void delete(int index) throws IndexOutOfBoundsException, EmptyListException {...}’.
+Also, remember that a constructor is just a special method - meaning it too can throw Exception(s) if you so wish. ;)
+Remember, do not perform any sanity checking or return a status code from your methods: rely exclusively on the ’try - catch’ block
+and throwing / catching Exceptions. You are allowed to implement your own custom Exception classes for certain aspects of your
+program, though you can also rely on existing Exception classes in some cases, e.g. InputMismatchException.
+Also, parts of the code are already provided (Character, CharacterRole, Party, Launcher), but you may (and should) edit any part of
+these classes, e.g. the constructor.
+You can view a full sample output given in the included file ’SampleOutput.txt’ to get an idea of how the program should work.
+
+Party class:
+import java.util.ArrayList;
+import java.util.List;
+
+public class Party {
+    private List<Character> characters;
+
+    Party() {
+        characters = new ArrayList<>();
+    }
+
+    @Override
+    public String toString() {
+        String characterList = "";
+        for (Character character : characters) {
+            characterList += "- " + character + "\n";
+        }
+        return "\nParty (" + characters.size() + " members):\n" + characterList;
+    }
+
+    // Implement the body of this method (you can also modify the method's
+    // signature...)
+    public void add(Character character) {
+
+    }
+}

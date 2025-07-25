@@ -1,0 +1,35 @@
+Exercise 4: Course Evaluation
+Teachers are getting really lazy these days. Therefore, you are kindly requested to write a program that
+
+allows the user to enter 3 grades for a course (e.g., Midterm 1, Midterm 2, Final Exam) in the console
+calculates the weighted average (20%, 20%, 60%)
+prints the 3 grades and the average on the console
+In a further step, you should ignore grades not belonging to the interval [0, 20]. If a number bigger than 20 is read from the console, limit it to 20. Similarly, a number lower than 0 is adjusted to 0. As you do not yet know about decision structures, the methods Math.min(float a, float b) and Math.max(float a, float b) might come in handy.
+
+Exercise 5: The bill, please!
+Programming makes hungry and thirsty. Write a program that allows a waiter to specify the unit price, the quantity and the VAT rate of an item. The program then calculates and outputs
+
+the total price without the VAT
+the VAT value
+the total price including the VAT
+
+Exercise 6: How's the weather?
+As you probably know, there are different temperature scales. The most popular one in the United States is Fahrenheit, whereas most of the rest of the world uses Celsius. The formula of conversion is
+
+Write a program that reads a temperature on the Celsius scale from the console and calculate the corresponding temperature on the Fahrenheit scale. Output both values.
+
+Exercise 7: Swapping the Contents of 2 Variables
+The purpose of this exercise is to exchange (swap) the values of two variables a and b, i.e., the value of a is assigned to b and vice versa.
+
+The standard solution in order to swap the contents of two variables a and b is the following:
+
+temp = a;
+a = b;
+b = temp;
+Try to understand why we need a third variable (temp) and why the following answer would be wrong:
+
+a = b;
+b = a;
+Implement both possibilities and use the debugger (cf. Exercise 3) in order to observe step by step what is going on.
+
+Now, write a program that swaps the contents of two variables a and b without using any additional variables (yes, this is possible!).

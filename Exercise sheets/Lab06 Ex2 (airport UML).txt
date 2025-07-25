@@ -1,0 +1,64 @@
+Exercise 2 – Air Travel
+1
+◦
+Implement the classes of the UML class diagram shown in Fig. 1. If you consider further fields or classes useful, extend the class
+hierarchy accordingly.
+ Code Generation
+VS Code provides support for generating code (e.g. constructors, getters & setters, ...) based on declared fields (attributes). This can considerably improve your development efficiency, taking away the burden of manually writing basic
+functionality. Of course, this does not mean you could (or should) not alter the generated code with custom business
+logic (e.g. sanity checks in setters, ...).
+To generate code in VS Code, right-click in the code editor and select Source Action... . From there, choose, e.g.,
+Generate Getters and Setters... and select the attributes for which they should be generated. Try also Generate Constructors... .
+2
+◦ Which class(es) should manage the participation of a passenger or a pilot in a (set of) flight(s)? Think about an appropriate
+way to implement this functionality and then realize it. What are the advantages and disadvantages of your proposed solution1
+?
+3
+◦ Write a main program that creates some instances of the implemented classes.
+
+Airport:
+- String city
+- String country
+- String iataCode
+----------
++ Airport(String city, String country, String iataCode)
++ String getCity()
++ String getCountry()
++ String getIataCode()
+
+Flight:
+- String number
+- Airport origin
+- Airport destination
+---------------
++ Flight(String number, Airport origin, Airport destination)
++ String getNumber()
++ Airport getOrigin()
++ Airport getDestination()
++ void setNumber(String number)
++ void setOrigin(Airport origin)
++ void setDestination(Airport destination)
+
+Person:
+- String name
+- String passportNumber
+--------------------
++ Person(String name, String passportNumber)
++ String getName()
++ String getPassportNumber()
++ void setPassportNumber(String passportNumber)
+
+Passenger:
+- int loyaltyCardNumber
+-------------------
++ Passenger(String name, String passportNumber, int loyaltyCardNumber)
++ int getLoyaltyCardNumber() 
+
+Pilot:
+- String airline
+-----------------
++ Pilot(String name, String passportNumber, String airline)
++ String getAirline()
++ void setAirline(String airline)
+
+Note: Passenger and Pilot points to Person class.

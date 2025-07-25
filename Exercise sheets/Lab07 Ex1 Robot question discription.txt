@@ -1,0 +1,31 @@
+Exercise 1 – Mission Mars #AbstractType #Polymorphism #Inheritance
+Yeahh! We are going Mars!
+Not too fast, we should work on a prototype first. As a developer, you work on a prototype robot and if all goes well, the real robot
+will soon fly to Mars and collect rock samples and photos.
+Your task is to create a software that controls a robot with the help of a Controller. The controller can send some Action commands
+to the robot to be executed; go left, go right, go forward, go back, take a photo, and pick a rock. You will test the robot on a maze,
+as shown in Figure 1, which consists of 20x20 tiles. So when you send a "go action", the robot moves only 20 cm in the corresponding
+direction. Each action has a cost in terms of battery life. Our robot has a battery life of 3000 seconds. Using go actions takes 10
+seconds, taking a high resolution photo takes 60 seconds, low resolution photo 40 seconds, and picking up a rock takes 150 seconds,
+consuming the robot’s battery life.
+
+Figure 1: Test drive: Maze
+The movements are defined as follows: Up = Back, Left = Left, Right = Right, Down = Forward.
+
+Robot start position he can move forward, then left for 3 tiles, then forward for 1 to discover a rock, 1 more for decisions: proceed forward or go right.
+1) forward:
+you move 1 more tile forward to discover a field of "Take a photo of alien". 1 tile forward is where alien exists. Going righ 2 tile and forward 1 then left 1 and forward 1 reaches a finish.
+
+2) the right decision:
+you move 1 tile right and encounter more decisions: proceed right or go back (up).
+2.1) You choose right: you can move 2 more tiles right and encounter a possibility to move 1 more tile right into a dead end or go forward 1 tile. Then moving forward 1 more tile leads into deadend, while moving right 1 tile and then forward 1 tile also leads into a dead end.
+2.2) you go 1 tile back, then 3 Right, 1 back and you end up in a dead end.
+
+Design a hierarchy with set of specified actions and make sure the hierarchy can be arbitrarily extended with other actions.
+In the end, you should implement a "Controller" so that the user can create a sequence of actions (forward, forward, pick, left, photo,
+left, ...) and then send them to the robot. The robot executes them in order. For this test drive, the number of actions is limited to
+10 in a set. After each execution of an action, the robot should report what it did and how much battery time was used. Finally, when
+all the actions in the set have been performed, it would be useful to see how many actions were performed and the total remaining
+battery life of the robot.
+Write a main method for your robot to find the exit of the maze in Figure 1 while completing side quest, such as picking up a rock
+and taking a picture of an alien
